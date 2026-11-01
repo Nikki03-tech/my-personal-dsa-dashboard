@@ -2,7 +2,7 @@
 
 **Date:** 2026-11-14  
 **LeetCode:** [Re-solve Valid Anagram](https://leetcode.com/problems/valid-anagram/) — Revision  
-**HackerRank:** [Re-solve Valid Palindrome](https://www.hackerrank.com/challenges/valid-palindrome/problem)
+**HackerRank:** [Making Anagrams (revision)](https://www.hackerrank.com/challenges/making-anagrams/problem)
 
 ## Today's focus
 

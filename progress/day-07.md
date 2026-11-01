@@ -2,7 +2,7 @@
 
 **Date:** 2026-11-07  
 **LeetCode:** [Re-solve Two Sum](https://leetcode.com/problems/two-sum/) — Revision  
-**HackerRank:** [Re-solve Running Sum](https://www.hackerrank.com/challenges/running-sum-of-1d-array/problem)
+**HackerRank:** [Arrays - DS (revision)](https://www.hackerrank.com/challenges/arrays-ds/problem)
 
 ## Today's focus
 

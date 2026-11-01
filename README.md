@@ -37,21 +37,21 @@ Try each problem independently first. Understand the input and output, work thro
 | 4 | Hash sets | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays/problem) |
 | 5 | Hash maps | [Two Sum](https://leetcode.com/problems/two-sum/) | [Ransom Note](https://www.hackerrank.com/challenges/ctci-ransom-note/problem) |
 | 6 | 2D arrays and nested loops | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) | [2D Array - DS](https://www.hackerrank.com/challenges/2d-array/problem) |
-| 7 | Week 1 revision | [Re-solve Two Sum](https://leetcode.com/problems/two-sum/) | [Re-solve Running Sum](https://leetcode.com/problems/running-sum-of-1d-array/) |
+| 7 | Week 1 revision | [Re-solve Two Sum](https://leetcode.com/problems/two-sum/) | [Arrays - DS (revision)](https://www.hackerrank.com/challenges/arrays-ds/problem) |
 | 8 | String fundamentals | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Making Anagrams](https://www.hackerrank.com/challenges/making-anagrams/problem) |
 | 9 | Two pointers | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Two Strings](https://www.hackerrank.com/challenges/two-strings/problem) |
 | 10 | String traversal | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Alternating Characters](https://www.hackerrank.com/challenges/alternating-characters/problem) |
 | 11 | Advanced hashing | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Sherlock and Anagrams](https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem) |
 | 12 | Array two pointers | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Left Rotation](https://www.hackerrank.com/challenges/left-rotation/problem) |
 | 13 | Sliding window | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Subarray Division](https://www.hackerrank.com/challenges/the-birthday-bar/problem) |
-| 14 | Week 2 revision | [Re-solve Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Re-solve Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) |
+| 14 | Week 2 revision | [Re-solve Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Making Anagrams (revision)](https://www.hackerrank.com/challenges/making-anagrams/problem) |
 | 15 | Binary search | [Binary Search](https://leetcode.com/problems/binary-search/) | [Intro to Tutorial Challenges](https://www.hackerrank.com/challenges/tutorial-intro/problem) |
 | 16 | Sorting | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [Quicksort 1 - Partition](https://www.hackerrank.com/challenges/quicksort1/problem) |
 | 17 | Greedy algorithms | [Jump Game](https://leetcode.com/problems/jump-game/) | [Mark and Toys](https://www.hackerrank.com/challenges/mark-and-toys/problem) |
 | 18 | Heaps and priority queues | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Find the Running Median](https://www.hackerrank.com/challenges/find-the-running-median/problem) |
 | 19 | Stacks | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Balanced Brackets](https://www.hackerrank.com/challenges/balanced-brackets/problem) |
 | 20 | Stack and queue implementation | [Min Stack](https://leetcode.com/problems/min-stack/) | [Queue Using Two Stacks](https://www.hackerrank.com/challenges/ctci-queue-using-two-stacks/problem) |
-| 21 | Week 3 revision | [Re-solve Binary Search](https://leetcode.com/problems/binary-search/) | [Re-solve Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) |
+| 21 | Week 3 revision | [Re-solve Binary Search](https://leetcode.com/problems/binary-search/) | [Balanced Brackets (revision)](https://www.hackerrank.com/challenges/balanced-brackets/problem) |
 | 22 | Linked lists | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Reverse a Linked List](https://www.hackerrank.com/challenges/reverse-a-linked-list/problem) |
 | 23 | Linked list cycles | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Detect a Cycle](https://www.hackerrank.com/challenges/ctci-linked-list-cycle/problem) |
 | 24 | Binary trees and DFS | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Tree Height](https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem) |

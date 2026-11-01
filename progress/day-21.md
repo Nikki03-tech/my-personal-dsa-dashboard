@@ -2,7 +2,7 @@
 
 **Date:** 2026-11-21  
 **LeetCode:** [Re-solve Binary Search](https://leetcode.com/problems/binary-search/) — Revision  
-**HackerRank:** [Re-solve Valid Parentheses](https://www.hackerrank.com/challenges/valid-parentheses/problem)
+**HackerRank:** [Balanced Brackets (revision)](https://www.hackerrank.com/challenges/balanced-brackets/problem)
 
 ## Today's focus
 
