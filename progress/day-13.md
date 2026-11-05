@@ -1,44 +1,52 @@
-# Day 13 — Sliding window
+# Day 13 — Binary search fundamentals
 
-**Date:** 2026-11-13  
-**LeetCode:** [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) — Medium  
-**HackerRank:** [Subarray Division](https://www.hackerrank.com/challenges/the-birthday-bar/problem)
+**Date:** November 13, 2026  
+**Language:** Python  
+**Status:** PLANNED — update this after your attempt.
 
-## Today's focus
+## Today's learning goals
+- [ ] low, mid and high indexes
+- [ ] Sorted-input requirement
+- [ ] Loop condition and boundary updates
 
-Maintain a moving window and update its state efficiently.
+## Core practice
+- **LeetCode:** [Binary Search](https://leetcode.com/problems/binary-search/) — Easy
+- **HackerRank / practice:** [Intro to Tutorial Challenges](https://www.hackerrank.com/challenges/tutorial-intro/problem)
 
-## Checklist
+## How to approach it
+Calculate the middle index, compare its value with the target, and move low or high so the remaining interval becomes smaller.
 
-- [ ] Review the concept and write a small example by hand.
-- [ ] Attempt the LeetCode problem independently.
-- [ ] Attempt the HackerRank exercise.
-- [ ] Explain the approach without reading the solution.
-- [ ] State the time and space complexity.
-- [ ] Update the dashboard completion tick.
+## Edge cases to test
+Test an empty list, one value, target at either end, target absent, and duplicates if permitted.
 
-## My notes
+## Optional stretch
+Binary search templates
+Compare inclusive [low, high] boundaries with half-open [low, high) boundaries.
 
-**My first approach:**
+## Complexity review
+- [ ] State the time complexity and explain which input size it depends on.
+- [ ] State auxiliary space separately from output space.
+- [ ] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
 
-_Write your initial idea here._
+## Daily checklist
+- [ ] Read the concept and trace a small example by hand.
+- [ ] Attempt the core LeetCode problem independently.
+- [ ] Attempt the HackerRank exercise or custom Python drill.
+- [ ] Test the edge cases above.
+- [ ] Explain the approach aloud without reading the solution.
+- [ ] Revisit this pattern after 2–3 days.
 
-**Where I got stuck:**
+## My attempt notes
+**First approach:**  
 
-_Record the exact issue or test case._
+**Where I got stuck:**  
 
-**Hint(s) used:**
+**Hints used:**  
 
-_Record whether you used a hint, discussion, or full solution._
+**Key insight / final approach:**  
 
-**Key insight / final approach:**
+**Time complexity:**  
 
-_Explain the solution in your own words._
+**Auxiliary space complexity:**  
 
-**Time complexity:**
-
-**Space complexity:**
-
-**What I learned today:**
-
-**Next step / revision needed:**
+**What I learned / what to revise:**  

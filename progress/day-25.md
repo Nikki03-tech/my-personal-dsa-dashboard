@@ -1,44 +1,53 @@
-# Day 25 — Tree traversal and BFS
+# Day 25 — Union-Find / Disjoint Set Union
 
-**Date:** 2026-11-25  
-**LeetCode:** [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) — Medium  
-**HackerRank:** [Tree Level Order Traversal](https://www.hackerrank.com/challenges/tree-level-order-traversal/problem)
+**Date:** November 25, 2026  
+**Language:** Python  
+**Status:** PLANNED — update this after your attempt.
 
-## Today's focus
+## Today's learning goals
+- [ ] parent array and find()
+- [ ] union() operation
+- [ ] Path compression
+- [ ] Union by size or rank
 
-Use a queue to visit tree nodes level by level.
+## Core practice
+- **LeetCode:** [Redundant Connection](https://leetcode.com/problems/redundant-connection/) — Medium
+- **HackerRank / practice:** [Components in a Graph](https://www.hackerrank.com/challenges/components-in-graph/problem)
 
-## Checklist
+## How to approach it
+For each edge, find the roots of both endpoints. If the roots are equal, the edge connects nodes already in the same set; otherwise union the two sets.
 
-- [ ] Review the concept and write a small example by hand.
-- [ ] Attempt the LeetCode problem independently.
-- [ ] Attempt the HackerRank exercise.
-- [ ] Explain the approach without reading the solution.
-- [ ] State the time and space complexity.
-- [ ] Update the dashboard completion tick.
+## Edge cases to test
+Test isolated nodes, repeated connections, a tree with no extra edge, and an edge that closes a cycle.
 
-## My notes
+## Optional stretch
+[Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
+Optional Medium: solve with DFS first, then compare the Disjoint Set Union approach.
 
-**My first approach:**
+## Complexity review
+- [ ] State the time complexity and explain which input size it depends on.
+- [ ] State auxiliary space separately from output space.
+- [ ] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
 
-_Write your initial idea here._
+## Daily checklist
+- [ ] Read the concept and trace a small example by hand.
+- [ ] Attempt the core LeetCode problem independently.
+- [ ] Attempt the HackerRank exercise or custom Python drill.
+- [ ] Test the edge cases above.
+- [ ] Explain the approach aloud without reading the solution.
+- [ ] Revisit this pattern after 2–3 days.
 
-**Where I got stuck:**
+## My attempt notes
+**First approach:**  
 
-_Record the exact issue or test case._
+**Where I got stuck:**  
 
-**Hint(s) used:**
+**Hints used:**  
 
-_Record whether you used a hint, discussion, or full solution._
+**Key insight / final approach:**  
 
-**Key insight / final approach:**
+**Time complexity:**  
 
-_Explain the solution in your own words._
+**Auxiliary space complexity:**  
 
-**Time complexity:**
-
-**Space complexity:**
-
-**What I learned today:**
-
-**Next step / revision needed:**
+**What I learned / what to revise:**  

@@ -1,44 +1,52 @@
-# Day 16 — Sorting
+# Day 16 — Stacks, queues and monotonic stacks
 
-**Date:** 2026-11-16  
-**LeetCode:** [Sort Colors](https://leetcode.com/problems/sort-colors/) — Medium  
-**HackerRank:** [Quicksort 1 - Partition](https://www.hackerrank.com/challenges/quicksort1/problem)
+**Date:** November 16, 2026  
+**Language:** Python  
+**Status:** PLANNED — update this after your attempt.
 
-## Today's focus
+## Today's learning goals
+- [ ] Stack push/pop and matching brackets
+- [ ] Queue enqueue/dequeue
+- [ ] Monotonic increasing/decreasing stack
 
-Understand sorting, partitions and how pointer movement changes the array.
+## Core practice
+- **LeetCode:** [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) — Medium
+- **HackerRank / practice:** [Balanced Brackets](https://www.hackerrank.com/challenges/balanced-brackets/problem)
 
-## Checklist
+## How to approach it
+For Daily Temperatures, keep indexes whose warmer day has not been found. When a warmer temperature arrives, resolve earlier indexes from the stack.
 
-- [ ] Review the concept and write a small example by hand.
-- [ ] Attempt the LeetCode problem independently.
-- [ ] Attempt the HackerRank exercise.
-- [ ] Explain the approach without reading the solution.
-- [ ] State the time and space complexity.
-- [ ] Update the dashboard completion tick.
+## Edge cases to test
+Test strictly increasing, strictly decreasing, all-equal and one-day inputs.
 
-## My notes
+## Optional stretch
+[Queue Using Two Stacks](https://www.hackerrank.com/challenges/ctci-queue-using-two-stacks/problem)
+Optional: implement enqueue/dequeue using two stacks and explain amortized O(1) operations.
 
-**My first approach:**
+## Complexity review
+- [ ] State the time complexity and explain which input size it depends on.
+- [ ] State auxiliary space separately from output space.
+- [ ] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
 
-_Write your initial idea here._
+## Daily checklist
+- [ ] Read the concept and trace a small example by hand.
+- [ ] Attempt the core LeetCode problem independently.
+- [ ] Attempt the HackerRank exercise or custom Python drill.
+- [ ] Test the edge cases above.
+- [ ] Explain the approach aloud without reading the solution.
+- [ ] Revisit this pattern after 2–3 days.
 
-**Where I got stuck:**
+## My attempt notes
+**First approach:**  
 
-_Record the exact issue or test case._
+**Where I got stuck:**  
 
-**Hint(s) used:**
+**Hints used:**  
 
-_Record whether you used a hint, discussion, or full solution._
+**Key insight / final approach:**  
 
-**Key insight / final approach:**
+**Time complexity:**  
 
-_Explain the solution in your own words._
+**Auxiliary space complexity:**  
 
-**Time complexity:**
-
-**Space complexity:**
-
-**What I learned today:**
-
-**Next step / revision needed:**
+**What I learned / what to revise:**  

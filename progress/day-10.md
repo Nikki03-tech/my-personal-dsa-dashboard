@@ -1,44 +1,52 @@
-# Day 10 — String traversal
+# Day 10 — Sliding window
 
-**Date:** 2026-11-10  
-**LeetCode:** [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) — Easy  
-**HackerRank:** [Alternating Characters](https://www.hackerrank.com/challenges/alternating-characters/problem)
+**Date:** November 10, 2026  
+**Language:** Python  
+**Status:** PLANNED — update this after your attempt.
 
-## Today's focus
+## Today's learning goals
+- [ ] Fixed-size and variable-size windows
+- [ ] Expand right; shrink left when a rule breaks
+- [ ] Track last-seen indexes or frequencies
 
-Scan strings character by character and handle empty or short inputs.
+## Core practice
+- **LeetCode:** [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) — Medium
+- **HackerRank / practice:** [Subarray Division](https://www.hackerrank.com/challenges/the-birthday-bar/problem)
 
-## Checklist
+## How to approach it
+Move the right edge through the string. When a repeated character violates the rule, move the left edge until the window is valid again.
 
-- [ ] Review the concept and write a small example by hand.
-- [ ] Attempt the LeetCode problem independently.
-- [ ] Attempt the HackerRank exercise.
-- [ ] Explain the approach without reading the solution.
-- [ ] State the time and space complexity.
-- [ ] Update the dashboard completion tick.
+## Edge cases to test
+Test an empty string, all unique characters, all repeated characters, and a repeat just outside the current window.
 
-## My notes
+## Optional stretch
+Window pattern comparison
+Explain the difference between a fixed-size window (like Subarray Division) and a variable-size window (this problem).
 
-**My first approach:**
+## Complexity review
+- [ ] State the time complexity and explain which input size it depends on.
+- [ ] State auxiliary space separately from output space.
+- [ ] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
 
-_Write your initial idea here._
+## Daily checklist
+- [ ] Read the concept and trace a small example by hand.
+- [ ] Attempt the core LeetCode problem independently.
+- [ ] Attempt the HackerRank exercise or custom Python drill.
+- [ ] Test the edge cases above.
+- [ ] Explain the approach aloud without reading the solution.
+- [ ] Revisit this pattern after 2–3 days.
 
-**Where I got stuck:**
+## My attempt notes
+**First approach:**  
 
-_Record the exact issue or test case._
+**Where I got stuck:**  
 
-**Hint(s) used:**
+**Hints used:**  
 
-_Record whether you used a hint, discussion, or full solution._
+**Key insight / final approach:**  
 
-**Key insight / final approach:**
+**Time complexity:**  
 
-_Explain the solution in your own words._
+**Auxiliary space complexity:**  
 
-**Time complexity:**
-
-**Space complexity:**
-
-**What I learned today:**
-
-**Next step / revision needed:**
+**What I learned / what to revise:**  

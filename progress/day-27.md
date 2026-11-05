@@ -1,44 +1,53 @@
-# Day 27 — Recursion and backtracking
+# Day 27 — Greedy algorithms
 
-**Date:** 2026-11-27  
-**LeetCode:** [Subsets](https://leetcode.com/problems/subsets/) — Medium  
-**HackerRank:** [Recursive Digit Sum](https://www.hackerrank.com/challenges/recursive-digit-sum/problem)
+**Date:** November 27, 2026  
+**Language:** Python  
+**Status:** PLANNED — update this after your attempt.
 
-## Today's focus
+## Today's learning goals
+- [ ] Greedy choice and feasibility
+- [ ] Track the farthest reachable index
+- [ ] Sort-first greedy patterns
+- [ ] Explain why a local choice works
 
-Build solutions recursively and understand the call stack and base case.
+## Core practice
+- **LeetCode:** [Jump Game](https://leetcode.com/problems/jump-game/) — Medium
+- **HackerRank / practice:** [Mark and Toys](https://www.hackerrank.com/challenges/mark-and-toys/problem)
 
-## Checklist
+## How to approach it
+Track the farthest index reachable so far. If the current index exceeds it, the destination cannot be reached.
 
-- [ ] Review the concept and write a small example by hand.
-- [ ] Attempt the LeetCode problem independently.
-- [ ] Attempt the HackerRank exercise.
-- [ ] Explain the approach without reading the solution.
-- [ ] State the time and space complexity.
-- [ ] Update the dashboard completion tick.
+## Edge cases to test
+Test one item, zero at the beginning, a zero that blocks progress, and a jump that reaches the final index exactly.
 
-## My notes
+## Optional stretch
+Greedy vs dynamic programming
+Explain why greedy works for some problems but can fail when local choices block a better global solution.
 
-**My first approach:**
+## Complexity review
+- [ ] State the time complexity and explain which input size it depends on.
+- [ ] State auxiliary space separately from output space.
+- [ ] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
 
-_Write your initial idea here._
+## Daily checklist
+- [ ] Read the concept and trace a small example by hand.
+- [ ] Attempt the core LeetCode problem independently.
+- [ ] Attempt the HackerRank exercise or custom Python drill.
+- [ ] Test the edge cases above.
+- [ ] Explain the approach aloud without reading the solution.
+- [ ] Revisit this pattern after 2–3 days.
 
-**Where I got stuck:**
+## My attempt notes
+**First approach:**  
 
-_Record the exact issue or test case._
+**Where I got stuck:**  
 
-**Hint(s) used:**
+**Hints used:**  
 
-_Record whether you used a hint, discussion, or full solution._
+**Key insight / final approach:**  
 
-**Key insight / final approach:**
+**Time complexity:**  
 
-_Explain the solution in your own words._
+**Auxiliary space complexity:**  
 
-**Time complexity:**
-
-**Space complexity:**
-
-**What I learned today:**
-
-**Next step / revision needed:**
+**What I learned / what to revise:**  

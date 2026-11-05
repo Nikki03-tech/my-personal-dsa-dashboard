@@ -1,44 +1,52 @@
-# Day 09 — Two pointers
+# Day 09 — Two pointers and pointer invariants
 
-**Date:** 2026-11-09  
-**LeetCode:** [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) — Easy  
-**HackerRank:** [Two Strings](https://www.hackerrank.com/challenges/two-strings/problem)
+**Date:** November 9, 2026  
+**Language:** Python  
+**Status:** PLANNED — update this after your attempt.
 
-## Today's focus
+## Today's learning goals
+- [ ] Left and right pointers
+- [ ] Move one or both pointers based on a condition
+- [ ] Slow/fast pointer pattern preview
 
-Move pointers from opposite ends and decide when each pointer should move.
+## Core practice
+- **LeetCode:** [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) — Easy
+- **HackerRank / practice:** [Two Strings](https://www.hackerrank.com/challenges/two-strings/problem)
 
-## Checklist
+## How to approach it
+Place one pointer at each end. Skip characters the problem says to ignore, compare the remaining characters, and move inward.
 
-- [ ] Review the concept and write a small example by hand.
-- [ ] Attempt the LeetCode problem independently.
-- [ ] Attempt the HackerRank exercise.
-- [ ] Explain the approach without reading the solution.
-- [ ] State the time and space complexity.
-- [ ] Update the dashboard completion tick.
+## Edge cases to test
+Test one character, punctuation and spaces, mixed case, an empty filtered string, and a mismatch at either end.
 
-## My notes
+## Optional stretch
+[3Sum](https://leetcode.com/problems/3sum/)
+Optional Medium: sort first, then combine a fixed index with two pointers. Focus on duplicate handling.
 
-**My first approach:**
+## Complexity review
+- [ ] State the time complexity and explain which input size it depends on.
+- [ ] State auxiliary space separately from output space.
+- [ ] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
 
-_Write your initial idea here._
+## Daily checklist
+- [ ] Read the concept and trace a small example by hand.
+- [ ] Attempt the core LeetCode problem independently.
+- [ ] Attempt the HackerRank exercise or custom Python drill.
+- [ ] Test the edge cases above.
+- [ ] Explain the approach aloud without reading the solution.
+- [ ] Revisit this pattern after 2–3 days.
 
-**Where I got stuck:**
+## My attempt notes
+**First approach:**  
 
-_Record the exact issue or test case._
+**Where I got stuck:**  
 
-**Hint(s) used:**
+**Hints used:**  
 
-_Record whether you used a hint, discussion, or full solution._
+**Key insight / final approach:**  
 
-**Key insight / final approach:**
+**Time complexity:**  
 
-_Explain the solution in your own words._
+**Auxiliary space complexity:**  
 
-**Time complexity:**
-
-**Space complexity:**
-
-**What I learned today:**
-
-**Next step / revision needed:**
+**What I learned / what to revise:**  

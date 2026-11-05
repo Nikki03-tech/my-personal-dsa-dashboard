@@ -1,44 +1,52 @@
-# Day 06 — 2D arrays and nested loops
+# Day 06 — 2D arrays and matrix traversal
 
-**Date:** 2026-11-06  
-**LeetCode:** [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) — Easy  
-**HackerRank:** [2D Array - DS](https://www.hackerrank.com/challenges/2d-array/problem)
+**Date:** November 6, 2026  
+**Language:** Python  
+**Status:** PLANNED — update this after your attempt.
 
-## Today's focus
+## Today's learning goals
+- [ ] Row and column indexes
+- [ ] Nested loops and matrix dimensions
+- [ ] Primary and secondary diagonals
 
-Practise row/column indexing and nested loops over a matrix.
+## Core practice
+- **LeetCode:** [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) — Easy
+- **HackerRank / practice:** [2D Array - DS](https://www.hackerrank.com/challenges/2d-array/problem)
 
-## Checklist
+## How to approach it
+Use the row index to locate the matching diagonal positions. Avoid counting the centre cell twice in an odd-sized square matrix.
 
-- [ ] Review the concept and write a small example by hand.
-- [ ] Attempt the LeetCode problem independently.
-- [ ] Attempt the HackerRank exercise.
-- [ ] Explain the approach without reading the solution.
-- [ ] State the time and space complexity.
-- [ ] Update the dashboard completion tick.
+## Edge cases to test
+Test a 1×1 matrix, an odd-sized matrix, an even-sized matrix, and the centre-cell rule.
 
-## My notes
+## Optional stretch
+Matrix traversal patterns
+Sketch row-wise, column-wise, boundary and spiral traversal. Try Spiral Matrix as an optional follow-up.
 
-**My first approach:**
+## Complexity review
+- [ ] State the time complexity and explain which input size it depends on.
+- [ ] State auxiliary space separately from output space.
+- [ ] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
 
-_Write your initial idea here._
+## Daily checklist
+- [ ] Read the concept and trace a small example by hand.
+- [ ] Attempt the core LeetCode problem independently.
+- [ ] Attempt the HackerRank exercise or custom Python drill.
+- [ ] Test the edge cases above.
+- [ ] Explain the approach aloud without reading the solution.
+- [ ] Revisit this pattern after 2–3 days.
 
-**Where I got stuck:**
+## My attempt notes
+**First approach:**  
 
-_Record the exact issue or test case._
+**Where I got stuck:**  
 
-**Hint(s) used:**
+**Hints used:**  
 
-_Record whether you used a hint, discussion, or full solution._
+**Key insight / final approach:**  
 
-**Key insight / final approach:**
+**Time complexity:**  
 
-_Explain the solution in your own words._
+**Auxiliary space complexity:**  
 
-**Time complexity:**
-
-**Space complexity:**
-
-**What I learned today:**
-
-**Next step / revision needed:**
+**What I learned / what to revise:**  

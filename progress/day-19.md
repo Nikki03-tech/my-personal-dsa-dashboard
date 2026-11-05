@@ -1,44 +1,53 @@
-# Day 19 — Stacks
+# Day 19 — Trees: DFS, recursion and BSTs
 
-**Date:** 2026-11-19  
-**LeetCode:** [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) — Easy  
-**HackerRank:** [Balanced Brackets](https://www.hackerrank.com/challenges/balanced-brackets/problem)
+**Date:** November 19, 2026  
+**Language:** Python  
+**Status:** PLANNED — update this after your attempt.
 
-## Today's focus
+## Today's learning goals
+- [ ] Tree nodes, root, leaves and height
+- [ ] DFS: preorder, inorder and postorder
+- [ ] BST ordering property
+- [ ] Recursive base cases
 
-Use a stack to track opening symbols and validate matching order.
+## Core practice
+- **LeetCode:** [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) — Easy
+- **HackerRank / practice:** [Tree: Height of a Binary Tree](https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem)
 
-## Checklist
+## How to approach it
+For maximum depth, return zero for an empty node and one plus the larger depth of the children. A BST validation must respect allowed value ranges throughout each subtree.
 
-- [ ] Review the concept and write a small example by hand.
-- [ ] Attempt the LeetCode problem independently.
-- [ ] Attempt the HackerRank exercise.
-- [ ] Explain the approach without reading the solution.
-- [ ] State the time and space complexity.
-- [ ] Update the dashboard completion tick.
+## Edge cases to test
+Test an empty tree, a single node, a skewed tree and a balanced tree.
 
-## My notes
+## Optional stretch
+[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+Optional Medium: use lower and upper bounds rather than checking only parent-child pairs.
 
-**My first approach:**
+## Complexity review
+- [ ] State the time complexity and explain which input size it depends on.
+- [ ] State auxiliary space separately from output space.
+- [ ] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
 
-_Write your initial idea here._
+## Daily checklist
+- [ ] Read the concept and trace a small example by hand.
+- [ ] Attempt the core LeetCode problem independently.
+- [ ] Attempt the HackerRank exercise or custom Python drill.
+- [ ] Test the edge cases above.
+- [ ] Explain the approach aloud without reading the solution.
+- [ ] Revisit this pattern after 2–3 days.
 
-**Where I got stuck:**
+## My attempt notes
+**First approach:**  
 
-_Record the exact issue or test case._
+**Where I got stuck:**  
 
-**Hint(s) used:**
+**Hints used:**  
 
-_Record whether you used a hint, discussion, or full solution._
+**Key insight / final approach:**  
 
-**Key insight / final approach:**
+**Time complexity:**  
 
-_Explain the solution in your own words._
+**Auxiliary space complexity:**  
 
-**Time complexity:**
-
-**Space complexity:**
-
-**What I learned today:**
-
-**Next step / revision needed:**
+**What I learned / what to revise:**  

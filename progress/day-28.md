@@ -1,44 +1,54 @@
-# Day 28 — Dynamic programming
+# Day 28 — Dynamic programming: 1D and 2D foundations
 
-**Date:** 2026-11-28  
-**LeetCode:** [House Robber](https://leetcode.com/problems/house-robber/) — Medium  
-**HackerRank:** [Max Array Sum](https://www.hackerrank.com/challenges/maxsubarray/problem)
+**Date:** November 28, 2026  
+**Language:** Python  
+**Status:** PLANNED — update this after your attempt.
 
-## Today's focus
+## Today's learning goals
+- [ ] State definition and recurrence
+- [ ] Base cases
+- [ ] Top-down memoization
+- [ ] Bottom-up tabulation
+- [ ] 2D DP exposure; knapsack and LIS patterns
 
-Identify overlapping subproblems and store results to avoid repeated work.
+## Core practice
+- **LeetCode:** [House Robber](https://leetcode.com/problems/house-robber/) — Medium
+- **HackerRank / practice:** [Max Array Sum](https://www.hackerrank.com/challenges/maxsubarray/problem)
 
-## Checklist
+## How to approach it
+For House Robber, decide at each index whether to take the current value plus the best non-adjacent result or skip it and keep the previous best.
 
-- [ ] Review the concept and write a small example by hand.
-- [ ] Attempt the LeetCode problem independently.
-- [ ] Attempt the HackerRank exercise.
-- [ ] Explain the approach without reading the solution.
-- [ ] State the time and space complexity.
-- [ ] Update the dashboard completion tick.
+## Edge cases to test
+Test zero houses, one house, two houses, all zeros, and negative values if the problem permits them.
 
-## My notes
+## Optional stretch
+[Unique Paths (2D DP)](https://leetcode.com/problems/unique-paths/)
+Optional Medium: build a grid DP table. Also read the state/transition idea for 0/1 Knapsack and Longest Increasing Subsequence; do not try to master all three today.
 
-**My first approach:**
+## Complexity review
+- [ ] State the time complexity and explain which input size it depends on.
+- [ ] State auxiliary space separately from output space.
+- [ ] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
 
-_Write your initial idea here._
+## Daily checklist
+- [ ] Read the concept and trace a small example by hand.
+- [ ] Attempt the core LeetCode problem independently.
+- [ ] Attempt the HackerRank exercise or custom Python drill.
+- [ ] Test the edge cases above.
+- [ ] Explain the approach aloud without reading the solution.
+- [ ] Revisit this pattern after 2–3 days.
 
-**Where I got stuck:**
+## My attempt notes
+**First approach:**  
 
-_Record the exact issue or test case._
+**Where I got stuck:**  
 
-**Hint(s) used:**
+**Hints used:**  
 
-_Record whether you used a hint, discussion, or full solution._
+**Key insight / final approach:**  
 
-**Key insight / final approach:**
+**Time complexity:**  
 
-_Explain the solution in your own words._
+**Auxiliary space complexity:**  
 
-**Time complexity:**
-
-**Space complexity:**
-
-**What I learned today:**
-
-**Next step / revision needed:**
+**What I learned / what to revise:**  

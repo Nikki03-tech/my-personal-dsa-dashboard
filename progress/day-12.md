@@ -1,44 +1,52 @@
-# Day 12 — Array two pointers
+# Day 12 — Intervals and merging ranges
 
-**Date:** 2026-11-12  
-**LeetCode:** [Move Zeroes](https://leetcode.com/problems/move-zeroes/) — Easy  
-**HackerRank:** [Left Rotation](https://www.hackerrank.com/challenges/left-rotation/problem)
+**Date:** November 12, 2026  
+**Language:** Python  
+**Status:** PLANNED — update this after your attempt.
 
-## Today's focus
+## Today's learning goals
+- [ ] Represent an interval as [start, end]
+- [ ] Sort by start value
+- [ ] Detect overlap and extend the current end
 
-Rearrange arrays in place while preserving the required relative order.
+## Core practice
+- **LeetCode:** [Merge Intervals](https://leetcode.com/problems/merge-intervals/) — Medium
+- **HackerRank / practice:** Custom Python drill — Custom Python drill: merge meeting times
 
-## Checklist
+## How to approach it
+Sort intervals. If the next start is at or before the current end, merge them; otherwise save the current interval and begin a new one.
 
-- [ ] Review the concept and write a small example by hand.
-- [ ] Attempt the LeetCode problem independently.
-- [ ] Attempt the HackerRank exercise.
-- [ ] Explain the approach without reading the solution.
-- [ ] State the time and space complexity.
-- [ ] Update the dashboard completion tick.
+## Edge cases to test
+Test no intervals, one interval, touching boundaries, fully contained intervals, and intervals already sorted in reverse order.
 
-## My notes
+## Optional stretch
+[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
+Optional Medium: learn how a min-heap can track the next room to become free.
 
-**My first approach:**
+## Complexity review
+- [ ] State the time complexity and explain which input size it depends on.
+- [ ] State auxiliary space separately from output space.
+- [ ] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
 
-_Write your initial idea here._
+## Daily checklist
+- [ ] Read the concept and trace a small example by hand.
+- [ ] Attempt the core LeetCode problem independently.
+- [ ] Attempt the HackerRank exercise or custom Python drill.
+- [ ] Test the edge cases above.
+- [ ] Explain the approach aloud without reading the solution.
+- [ ] Revisit this pattern after 2–3 days.
 
-**Where I got stuck:**
+## My attempt notes
+**First approach:**  
 
-_Record the exact issue or test case._
+**Where I got stuck:**  
 
-**Hint(s) used:**
+**Hints used:**  
 
-_Record whether you used a hint, discussion, or full solution._
+**Key insight / final approach:**  
 
-**Key insight / final approach:**
+**Time complexity:**  
 
-_Explain the solution in your own words._
+**Auxiliary space complexity:**  
 
-**Time complexity:**
-
-**Space complexity:**
-
-**What I learned today:**
-
-**Next step / revision needed:**
+**What I learned / what to revise:**  

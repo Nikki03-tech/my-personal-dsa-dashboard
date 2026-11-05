@@ -1,44 +1,52 @@
-# Day 11 — Advanced hashing
+# Day 11 — Advanced hashing and grouping
 
-**Date:** 2026-11-11  
-**LeetCode:** [Group Anagrams](https://leetcode.com/problems/group-anagrams/) — Medium  
-**HackerRank:** [Sherlock and Anagrams](https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem)
+**Date:** November 11, 2026  
+**Language:** Python  
+**Status:** PLANNED — update this after your attempt.
 
-## Today's focus
+## Today's learning goals
+- [ ] Hash-map values that are lists
+- [ ] Tuple frequency signatures or sorted-string keys
+- [ ] Counting matching signatures
 
-Design a reliable dictionary key for grouping items with shared properties.
+## Core practice
+- **LeetCode:** [Group Anagrams](https://leetcode.com/problems/group-anagrams/) — Medium
+- **HackerRank / practice:** [Sherlock and Anagrams](https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem)
 
-## Checklist
+## How to approach it
+Create the same deterministic key for words that contain the same letters, then append each word to the bucket for that key.
 
-- [ ] Review the concept and write a small example by hand.
-- [ ] Attempt the LeetCode problem independently.
-- [ ] Attempt the HackerRank exercise.
-- [ ] Explain the approach without reading the solution.
-- [ ] State the time and space complexity.
-- [ ] Update the dashboard completion tick.
+## Edge cases to test
+Test empty strings, repeated words, words with different lengths, and words with repeated characters.
 
-## My notes
+## Optional stretch
+Hashing trade-offs
+Compare sorting each word for a key with building a 26-character frequency tuple.
 
-**My first approach:**
+## Complexity review
+- [ ] State the time complexity and explain which input size it depends on.
+- [ ] State auxiliary space separately from output space.
+- [ ] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
 
-_Write your initial idea here._
+## Daily checklist
+- [ ] Read the concept and trace a small example by hand.
+- [ ] Attempt the core LeetCode problem independently.
+- [ ] Attempt the HackerRank exercise or custom Python drill.
+- [ ] Test the edge cases above.
+- [ ] Explain the approach aloud without reading the solution.
+- [ ] Revisit this pattern after 2–3 days.
 
-**Where I got stuck:**
+## My attempt notes
+**First approach:**  
 
-_Record the exact issue or test case._
+**Where I got stuck:**  
 
-**Hint(s) used:**
+**Hints used:**  
 
-_Record whether you used a hint, discussion, or full solution._
+**Key insight / final approach:**  
 
-**Key insight / final approach:**
+**Time complexity:**  
 
-_Explain the solution in your own words._
+**Auxiliary space complexity:**  
 
-**Time complexity:**
-
-**Space complexity:**
-
-**What I learned today:**
-
-**Next step / revision needed:**
+**What I learned / what to revise:**  

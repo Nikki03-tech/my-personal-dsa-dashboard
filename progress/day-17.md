@@ -1,44 +1,52 @@
-# Day 17 — Greedy algorithms
+# Day 17 — Linked lists and fast/slow pointers
 
-**Date:** 2026-11-17  
-**LeetCode:** [Jump Game](https://leetcode.com/problems/jump-game/) — Medium  
-**HackerRank:** [Mark and Toys](https://www.hackerrank.com/challenges/mark-and-toys/problem)
+**Date:** November 17, 2026  
+**Language:** Python  
+**Status:** PLANNED — update this after your attempt.
 
-## Today's focus
+## Today's learning goals
+- [ ] Node and next references
+- [ ] Slow pointer moves one step; fast moves two
+- [ ] Cycle detection without a visited set
 
-Make locally optimal choices and explain why they are safe.
+## Core practice
+- **LeetCode:** [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) — Easy
+- **HackerRank / practice:** [Detect a Cycle](https://www.hackerrank.com/challenges/ctci-linked-list-cycle/problem)
 
-## Checklist
+## How to approach it
+Move slow by one node and fast by two. If they meet, a cycle exists; if fast reaches None, the list ends.
 
-- [ ] Review the concept and write a small example by hand.
-- [ ] Attempt the LeetCode problem independently.
-- [ ] Attempt the HackerRank exercise.
-- [ ] Explain the approach without reading the solution.
-- [ ] State the time and space complexity.
-- [ ] Update the dashboard completion tick.
+## Edge cases to test
+Test an empty list, one node without a cycle, one node pointing to itself, and a cycle beginning after several nodes.
 
-## My notes
+## Optional stretch
+[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+Optional Easy: reverse links iteratively with previous, current and next pointers.
 
-**My first approach:**
+## Complexity review
+- [ ] State the time complexity and explain which input size it depends on.
+- [ ] State auxiliary space separately from output space.
+- [ ] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
 
-_Write your initial idea here._
+## Daily checklist
+- [ ] Read the concept and trace a small example by hand.
+- [ ] Attempt the core LeetCode problem independently.
+- [ ] Attempt the HackerRank exercise or custom Python drill.
+- [ ] Test the edge cases above.
+- [ ] Explain the approach aloud without reading the solution.
+- [ ] Revisit this pattern after 2–3 days.
 
-**Where I got stuck:**
+## My attempt notes
+**First approach:**  
 
-_Record the exact issue or test case._
+**Where I got stuck:**  
 
-**Hint(s) used:**
+**Hints used:**  
 
-_Record whether you used a hint, discussion, or full solution._
+**Key insight / final approach:**  
 
-**Key insight / final approach:**
+**Time complexity:**  
 
-_Explain the solution in your own words._
+**Auxiliary space complexity:**  
 
-**Time complexity:**
-
-**Space complexity:**
-
-**What I learned today:**
-
-**Next step / revision needed:**
+**What I learned / what to revise:**  

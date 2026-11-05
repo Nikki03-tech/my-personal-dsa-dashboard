@@ -1,44 +1,52 @@
-# Day 07 — Week 1 revision
+# Day 07 — Prefix sums and subarray sums
 
-**Date:** 2026-11-07  
-**LeetCode:** [Re-solve Two Sum](https://leetcode.com/problems/two-sum/) — Revision  
-**HackerRank:** [Arrays - DS (revision)](https://www.hackerrank.com/challenges/arrays-ds/problem)
+**Date:** November 7, 2026  
+**Language:** Python  
+**Status:** PLANNED — update this after your attempt.
 
-## Today's focus
+## Today's learning goals
+- [ ] Prefix sum array and running total
+- [ ] Left sum vs right sum
+- [ ] Difference arrays as an extension
 
-Review arrays and hashing; solve again without looking at old code.
+## Core practice
+- **LeetCode:** [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) — Easy
+- **HackerRank / practice:** [Array Manipulation](https://www.hackerrank.com/challenges/crush/problem)
 
-## Checklist
+## How to approach it
+Calculate the total once, maintain the left sum as you scan, and derive the right sum from the total and current value.
 
-- [ ] Review the concept and write a small example by hand.
-- [ ] Attempt the LeetCode problem independently.
-- [ ] Attempt the HackerRank exercise.
-- [ ] Explain the approach without reading the solution.
-- [ ] State the time and space complexity.
-- [ ] Update the dashboard completion tick.
+## Edge cases to test
+Test a pivot at the first index, last index, no pivot, negative values, and repeated values.
 
-## My notes
+## Optional stretch
+[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+Optional Medium: combine prefix sums with a frequency dictionary. First understand why the running prefix is useful.
 
-**My first approach:**
+## Complexity review
+- [ ] State the time complexity and explain which input size it depends on.
+- [ ] State auxiliary space separately from output space.
+- [ ] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
 
-_Write your initial idea here._
+## Daily checklist
+- [ ] Read the concept and trace a small example by hand.
+- [ ] Attempt the core LeetCode problem independently.
+- [ ] Attempt the HackerRank exercise or custom Python drill.
+- [ ] Test the edge cases above.
+- [ ] Explain the approach aloud without reading the solution.
+- [ ] Revisit this pattern after 2–3 days.
 
-**Where I got stuck:**
+## My attempt notes
+**First approach:**  
 
-_Record the exact issue or test case._
+**Where I got stuck:**  
 
-**Hint(s) used:**
+**Hints used:**  
 
-_Record whether you used a hint, discussion, or full solution._
+**Key insight / final approach:**  
 
-**Key insight / final approach:**
+**Time complexity:**  
 
-_Explain the solution in your own words._
+**Auxiliary space complexity:**  
 
-**Time complexity:**
-
-**Space complexity:**
-
-**What I learned today:**
-
-**Next step / revision needed:**
+**What I learned / what to revise:**  

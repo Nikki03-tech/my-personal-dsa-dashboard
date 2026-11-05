@@ -1,44 +1,54 @@
-# Day 29 — Hard problem exposure
+# Day 29 — Bit manipulation and mathematical algorithms
 
-**Date:** 2026-11-29  
-**LeetCode:** [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) — Hard  
-**HackerRank:** [New Year Chaos](https://www.hackerrank.com/challenges/new-year-chaos/problem)
+**Date:** November 29, 2026  
+**Language:** Python  
+**Status:** PLANNED — update this after your attempt.
 
-## Today's focus
+## Today's learning goals
+- [ ] Binary representation; AND, OR, XOR and shifts
+- [ ] XOR cancellation property
+- [ ] GCD using Euclid's algorithm; LCM
+- [ ] Prime checks and Sieve of Eratosthenes
+- [ ] Modulo arithmetic basics
 
-Attempt a challenging problem, then study two-pointer or prefix/suffix reasoning.
+## Core practice
+- **LeetCode:** [Single Number](https://leetcode.com/problems/single-number/) — Easy
+- **HackerRank / practice:** [Flipping Bits](https://www.hackerrank.com/challenges/flipping-bits/problem)
 
-## Checklist
+## How to approach it
+For Single Number, XOR all values: equal pairs cancel and the unpaired value remains. For math drills, write small functions and test boundary values.
 
-- [ ] Review the concept and write a small example by hand.
-- [ ] Attempt the LeetCode problem independently.
-- [ ] Attempt the HackerRank exercise.
-- [ ] Explain the approach without reading the solution.
-- [ ] State the time and space complexity.
-- [ ] Update the dashboard completion tick.
+## Edge cases to test
+Test one element, repeated pairs, zero, negative values if permitted, GCD with zero, and prime values such as 2 and 1.
 
-## My notes
+## Optional stretch
+[Count Primes](https://leetcode.com/problems/count-primes/)
+Optional Medium: implement the Sieve of Eratosthenes. Also code gcd(a, b) and lcm(a, b) as short Python drills.
 
-**My first approach:**
+## Complexity review
+- [ ] State the time complexity and explain which input size it depends on.
+- [ ] State auxiliary space separately from output space.
+- [ ] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
 
-_Write your initial idea here._
+## Daily checklist
+- [ ] Read the concept and trace a small example by hand.
+- [ ] Attempt the core LeetCode problem independently.
+- [ ] Attempt the HackerRank exercise or custom Python drill.
+- [ ] Test the edge cases above.
+- [ ] Explain the approach aloud without reading the solution.
+- [ ] Revisit this pattern after 2–3 days.
 
-**Where I got stuck:**
+## My attempt notes
+**First approach:**  
 
-_Record the exact issue or test case._
+**Where I got stuck:**  
 
-**Hint(s) used:**
+**Hints used:**  
 
-_Record whether you used a hint, discussion, or full solution._
+**Key insight / final approach:**  
 
-**Key insight / final approach:**
+**Time complexity:**  
 
-_Explain the solution in your own words._
+**Auxiliary space complexity:**  
 
-**Time complexity:**
-
-**Space complexity:**
-
-**What I learned today:**
-
-**Next step / revision needed:**
+**What I learned / what to revise:**  
