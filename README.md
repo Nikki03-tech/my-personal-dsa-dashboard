@@ -1,112 +1,81 @@
-# My Personal DSA Dashboard — Expanded 30-Day Python Challenge
+# My Personal DSA Dashboard — 30-Day Python Challenge
 
-A beginner-friendly Python DSA plan for **November 1–30, 2026**, expanded to include the interview patterns missing from the original schedule.
+A 30-day Python DSA plan for November 1–30, 2026, expanded for early-career software engineering interviews.
 
 ## Interactive dashboard
 
-Open [the live GitHub Pages dashboard](https://nikki03-tech.github.io/my-personal-dsa-dashboard/) or open [`index.html`](index.html) locally.
+Open the [live dashboard](https://nikki03-tech.github.io/my-personal-dsa-dashboard/) or open [`index.html`](index.html) locally.
 
-The dashboard includes:
-- A 30-day calendar with daily concepts and practice links.
-- One core LeetCode problem per day.
-- A related HackerRank exercise where a suitable match exists; otherwise, a clearly labelled custom Python drill.
-- Optional stretch problems for extra practice; these are not required to mark the core day complete.
-- Completion filters, a progress bar, a saved DSA chat link and JSON progress export.
-- A topic coverage overview for the full 30 days.
+**Every day has four assigned questions: 2 LeetCode + 2 HackerRank.** Each problem is labelled Q1 or Q2 in the day card.
 
-**Progress storage:** checkmarks and the saved chat URL are stored in your browser's local storage. They do not automatically sync to GitHub or across devices. The updated dashboard migrates the saved chat URL and Day 1–5 checkmarks from the previous version. Day 6 onward is reset because those assignments have been expanded or changed; this avoids showing a new task as completed based on an old task.
+The dashboard also includes a 30-day calendar, daily focus panel, filters, progress indicator, saved ChatGPT DSA chat link, and JSON progress export.
 
-## Daily study routine
+**Progress storage:** checkmarks and the saved chat URL are stored in your browser's local storage; they do not automatically sync to GitHub or across devices. The revised dashboard preserves the previous Day 1–5 completion state and saved chat link. Later checkmarks were reset because those assignments changed.
 
-Suggested routine: about **2 hours**.
+## Suggested daily routine
+
+Four questions require more than the original two-hour session. Suggested total: **about 2 hours 40 minutes**. You can split the work into two sessions.
 
 | Time | Activity |
 |---|---|
-| 20 minutes | Learn the pattern and trace one example by hand |
-| 45 minutes | Attempt the core LeetCode problem independently |
+| 15 minutes | Learn the pattern and trace an example |
+| 35 minutes | LeetCode Q1 |
+| 30 minutes | LeetCode Q2 |
 | 10 minutes | Break |
-| 30 minutes | Attempt HackerRank or the custom Python drill |
-| 15 minutes | Test edge cases, state time/space complexity and write notes |
+| 25 minutes | HackerRank Q1 |
+| 25 minutes | HackerRank Q2 |
+| 20 minutes | Edge cases, complexity and notes |
 
-Try the core problem independently before looking at hints. Optional stretch problems are for days when the core task is understood and time remains.
+For a difficult topic, first understand Q1 on each platform, then attempt Q2. Record where you got stuck rather than rushing or copying a solution.
 
-## Expanded 30-day schedule
+## 30-day schedule
 
-| Day | Topic | Core LeetCode | HackerRank / practice |
-|---:|---|---|---|
-| 1 | Conditions, loops and modulo | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first/problem) |
-| 2 | Number logic and conditionals | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum/problem) |
-| 3 | Array traversal and running sums | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [Arrays - DS](https://www.hackerrank.com/challenges/arrays-ds/problem) |
-| 4 | Hash sets | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays/problem) |
-| 5 | Hash maps and frequency counting | [Two Sum](https://leetcode.com/problems/two-sum/) | [Ransom Note](https://www.hackerrank.com/challenges/ctci-ransom-note/problem) |
-| 6 | 2D arrays and matrix traversal | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) | [2D Array - DS](https://www.hackerrank.com/challenges/2d-array/problem) |
-| 7 | Prefix sums and subarray sums | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [Array Manipulation](https://www.hackerrank.com/challenges/crush/problem) |
-| 8 | Strings and character frequencies | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Making Anagrams](https://www.hackerrank.com/challenges/making-anagrams/problem) |
-| 9 | Two pointers and pointer invariants | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Two Strings](https://www.hackerrank.com/challenges/two-strings/problem) |
-| 10 | Sliding window | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Subarray Division](https://www.hackerrank.com/challenges/the-birthday-bar/problem) |
-| 11 | Advanced hashing and grouping | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Sherlock and Anagrams](https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem) |
-| 12 | Intervals and merging ranges | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Custom Python drill: merge meeting times |
-| 13 | Binary search fundamentals | [Binary Search](https://leetcode.com/problems/binary-search/) | [Intro to Tutorial Challenges](https://www.hackerrank.com/challenges/tutorial-intro/problem) |
-| 14 | Binary search variations and search on answer | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Custom Python drill: rotated search |
-| 15 | Sorting and partitioning | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [Quicksort 1 - Partition](https://www.hackerrank.com/challenges/quicksort1/problem) |
-| 16 | Stacks, queues and monotonic stacks | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Balanced Brackets](https://www.hackerrank.com/challenges/balanced-brackets/problem) |
-| 17 | Linked lists and fast/slow pointers | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Detect a Cycle](https://www.hackerrank.com/challenges/ctci-linked-list-cycle/problem) |
-| 18 | Recursion and advanced backtracking | [Subsets](https://leetcode.com/problems/subsets/) | [Recursive Digit Sum](https://www.hackerrank.com/challenges/recursive-digit-sum/problem) |
-| 19 | Trees: DFS, recursion and BSTs | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Tree: Height of a Binary Tree](https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem) |
-| 20 | Tree traversal: breadth-first search | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Tree Level Order Traversal](https://www.hackerrank.com/challenges/tree-level-order-traversal/problem) |
-| 21 | Heaps and priority queues | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Find the Running Median](https://www.hackerrank.com/challenges/find-the-running-median/problem) |
-| 22 | Graphs: BFS, DFS and connected components | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [BFS: Shortest Reach](https://www.hackerrank.com/challenges/bfsshortreach/problem) |
-| 23 | Topological sorting and dependency graphs | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Custom Python drill: Kahn's algorithm |
-| 24 | Shortest paths: Dijkstra's algorithm | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | [Dijkstra: Shortest Reach 2](https://www.hackerrank.com/challenges/dijkstra-shortest-reach-2/problem) |
-| 25 | Union-Find / Disjoint Set Union | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | [Components in a Graph](https://www.hackerrank.com/challenges/components-in-graph/problem) |
-| 26 | Tries and prefix searching | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Contacts](https://www.hackerrank.com/challenges/contacts/problem) |
-| 27 | Greedy algorithms | [Jump Game](https://leetcode.com/problems/jump-game/) | [Mark and Toys](https://www.hackerrank.com/challenges/mark-and-toys/problem) |
-| 28 | Dynamic programming: 1D and 2D foundations | [House Robber](https://leetcode.com/problems/house-robber/) | [Max Array Sum](https://www.hackerrank.com/challenges/maxsubarray/problem) |
-| 29 | Bit manipulation and mathematical algorithms | [Single Number](https://leetcode.com/problems/single-number/) | [Flipping Bits](https://www.hackerrank.com/challenges/flipping-bits/problem) |
-| 30 | Final mixed mock and pattern review | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [New Year Chaos](https://www.hackerrank.com/challenges/new-year-chaos/problem) |
+| Day | Topic | LeetCode Q1 | LeetCode Q2 | HackerRank Q1 | HackerRank Q2 |
+|---:|---|---|---|---|---|
+| 1 | Conditions, loops and modulo | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first/problem) | [Python Loops](https://www.hackerrank.com/challenges/python-loops/problem) |
+| 2 | Number logic and conditionals | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum/problem) | [Find Digits](https://www.hackerrank.com/challenges/find-digits/problem) |
+| 3 | Array traversal and running sums | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | [Arrays - DS](https://www.hackerrank.com/challenges/arrays-ds/problem) | [Arrays: Left Rotation](https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem) |
+| 4 | Hash sets | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays/problem) | [Set .add()](https://www.hackerrank.com/challenges/py-set-add/problem) |
+| 5 | Hash maps and frequency counting | [Two Sum](https://leetcode.com/problems/two-sum/) | [Majority Element](https://leetcode.com/problems/majority-element/) | [Ransom Note](https://www.hackerrank.com/challenges/ctci-ransom-note/problem) | [Frequency Queries](https://www.hackerrank.com/challenges/frequency-queries/problem) |
+| 6 | 2D arrays and matrix traversal | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | [2D Array - DS](https://www.hackerrank.com/challenges/2d-array/problem) | [Matrix Script](https://www.hackerrank.com/challenges/matrix-script/problem) |
+| 7 | Prefix sums and subarray sums | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | [Array Manipulation](https://www.hackerrank.com/challenges/crush/problem) | [Sherlock and Array](https://www.hackerrank.com/challenges/sherlock-and-array/problem) |
+| 8 | Strings and character frequencies | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Making Anagrams](https://www.hackerrank.com/challenges/making-anagrams/problem) | [Anagram](https://www.hackerrank.com/challenges/anagram/problem) |
+| 9 | Two pointers and pointer invariants | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Two Strings](https://www.hackerrank.com/challenges/two-strings/problem) | [Pairs](https://www.hackerrank.com/challenges/pairs/problem) |
+| 10 | Sliding window | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | [Subarray Division](https://www.hackerrank.com/challenges/the-birthday-bar/problem) | [Max Min](https://www.hackerrank.com/challenges/angry-children/problem) |
+| 11 | Advanced hashing and grouping | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Sherlock and Anagrams](https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem) | [Game of Thrones - I](https://www.hackerrank.com/challenges/game-of-thrones/problem) |
+| 12 | Intervals and merging ranges | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Insert Interval](https://leetcode.com/problems/insert-interval/) | [Interval Selection](https://www.hackerrank.com/challenges/interval-selection/problem) | [Gridland Metro](https://www.hackerrank.com/challenges/gridland-metro/problem) |
+| 13 | Binary search fundamentals | [Binary Search](https://leetcode.com/problems/binary-search/) | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Intro to Tutorial Challenges](https://www.hackerrank.com/challenges/tutorial-intro/problem) | [Minimum Time Required](https://www.hackerrank.com/challenges/minimum-time-required/problem) |
+| 14 | Binary search variations and search on answer | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Climbing the Leaderboard](https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem) | [Missing Numbers](https://www.hackerrank.com/challenges/missing-numbers/problem) |
+| 15 | Sorting and partitioning | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Quicksort 1 - Partition](https://www.hackerrank.com/challenges/quicksort1/problem) | [Counting Sort 1](https://www.hackerrank.com/challenges/countingsort1/problem) |
+| 16 | Stacks, queues and monotonic stacks | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | [Balanced Brackets](https://www.hackerrank.com/challenges/balanced-brackets/problem) | [Largest Rectangle](https://www.hackerrank.com/challenges/largest-rectangle/problem) |
+| 17 | Linked lists and fast/slow pointers | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Detect a Cycle](https://www.hackerrank.com/challenges/ctci-linked-list-cycle/problem) | [Find the Merge Point of Two Joined Linked Lists](https://www.hackerrank.com/challenges/find-the-merge-point-of-two-joined-linked-lists/problem) |
+| 18 | Recursion and advanced backtracking | [Subsets](https://leetcode.com/problems/subsets/) | [Permutations](https://leetcode.com/problems/permutations/) | [Recursive Digit Sum](https://www.hackerrank.com/challenges/recursive-digit-sum/problem) | [Crossword Puzzle](https://www.hackerrank.com/challenges/crossword-puzzle/problem) |
+| 19 | Trees: DFS, recursion and BSTs | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Tree: Height of a Binary Tree](https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem) | [Tree: Preorder Traversal](https://www.hackerrank.com/challenges/tree-preorder-traversal/problem) |
+| 20 | Tree traversal: breadth-first search | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [Tree Level Order Traversal](https://www.hackerrank.com/challenges/tree-level-order-traversal/problem) | [Swap Nodes [Algo]](https://www.hackerrank.com/challenges/swap-nodes-algo/problem) |
+| 21 | Heaps and priority queues | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Find the Running Median](https://www.hackerrank.com/challenges/find-the-running-median/problem) | [Jesse and Cookies](https://www.hackerrank.com/challenges/jesse-and-cookies/problem) |
+| 22 | Graphs: BFS, DFS and connected components | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Clone Graph](https://leetcode.com/problems/clone-graph/) | [BFS: Shortest Reach](https://www.hackerrank.com/challenges/bfsshortreach/problem) | [Connected Cell in a Grid](https://www.hackerrank.com/challenges/connected-cell-in-a-grid/problem) |
+| 23 | Topological sorting and dependency graphs | [Course Schedule](https://leetcode.com/problems/course-schedule/) | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | [Even Tree](https://www.hackerrank.com/challenges/even-tree/problem) | [Basic Quiz on Algorithms #1 (includes a topological-sort question)](https://www.hackerrank.com/challenges/basic-algo-quiz-1/problem) |
+| 24 | Shortest paths: Dijkstra's algorithm | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/) | [Dijkstra: Shortest Reach 2](https://www.hackerrank.com/challenges/dijkstra-shortest-reach-2/problem) | [Floyd: City of Blinding Lights](https://www.hackerrank.com/challenges/floyd-city-of-blinding-lights/problem) |
+| 25 | Union-Find / Disjoint Set Union | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | [Components in a Graph](https://www.hackerrank.com/challenges/components-in-graph/problem) | [Journey to the Moon](https://www.hackerrank.com/challenges/journey-to-the-moon/problem) |
+| 26 | Tries and prefix searching | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [Contacts](https://www.hackerrank.com/challenges/contacts/problem) | [No Prefix Set](https://www.hackerrank.com/challenges/three-month-preparation-kit-no-prefix-set/problem) |
+| 27 | Greedy algorithms | [Jump Game](https://leetcode.com/problems/jump-game/) | [Gas Station](https://leetcode.com/problems/gas-station/) | [Mark and Toys](https://www.hackerrank.com/challenges/mark-and-toys/problem) | [Greedy Florist](https://www.hackerrank.com/challenges/greedy-florist/problem) |
+| 28 | Dynamic programming: 1D and 2D foundations | [House Robber](https://leetcode.com/problems/house-robber/) | [Coin Change](https://leetcode.com/problems/coin-change/) | [Max Array Sum](https://www.hackerrank.com/challenges/maxsubarray/problem) | [The Coin Change Problem](https://www.hackerrank.com/challenges/the-coin-change-problem/problem) |
+| 29 | Bit manipulation and mathematical algorithms | [Single Number](https://leetcode.com/problems/single-number/) | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [Flipping Bits](https://www.hackerrank.com/challenges/flipping-bits/problem) | [Sum vs XOR](https://www.hackerrank.com/challenges/sum-vs-xor/problem) |
+| 30 | Final mixed mock and pattern review | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [New Year Chaos](https://www.hackerrank.com/challenges/new-year-chaos/problem) | [Minimum Swaps 2](https://www.hackerrank.com/challenges/minimum-swaps-2/problem) |
 
-## Topics added or expanded
+## Topic coverage
 
-The revised plan now introduces:
-- Prefix sums and subarray-sum patterns.
-- Interval merging.
-- Two-pointer variants and fast/slow pointers.
-- Binary-search variations, including rotated arrays and search on answer.
-- Monotonic stacks and queue implementation.
-- Advanced backtracking: permutations and combinations.
-- Binary Search Trees (BSTs).
-- Topological sorting and dependency graphs.
-- Dijkstra shortest paths.
-- Union-Find / Disjoint Set Union.
-- Tries and prefix search.
-- 1D and 2D dynamic programming, with introductions to knapsack and LIS.
-- Bit manipulation and mathematical algorithms such as GCD, LCM and prime sieves.
-
-## Important pacing note
-
-This is a **30-day first pass**, not a guarantee of interview readiness or mastery of every advanced topic. Keep the core problem as the priority. Treat advanced stretch problems as exposure, then revisit Medium and advanced patterns in a second practice cycle until you can solve and explain them independently.
-
-## Weekly focus
-
-- **Days 1–7:** Python basics, arrays, hashing, matrices and prefix sums.
-- **Days 8–14:** Strings, two pointers, sliding window, intervals and binary search.
-- **Days 15–21:** Sorting, stacks, queues, linked lists, recursion, trees and heaps.
-- **Days 22–30:** Graph traversal, topological sorting, Dijkstra, Union-Find, tries, greedy, dynamic programming, bit manipulation and math.
+Python fundamentals, arrays, matrices, hash sets/maps, prefix sums, subarray sums, strings, two pointers, sliding windows, intervals, binary search and search-on-answer, sorting, stacks, queues, monotonic stacks, linked lists, fast/slow pointers, recursion, backtracking, trees, BSTs, BFS, DFS, heaps, graphs, topological sorting, Dijkstra, Union-Find, tries, greedy algorithms, dynamic programming, bit manipulation and mathematics.
 
 ## Progress logs
 
-Use the matching file in [`progress/`](progress/) to record your attempt. For each day, note your first approach, where you got stuck, hints used, the key insight, edge cases and complexity. Do not mark a day complete just because you viewed a solution; complete it when you can explain the approach yourself.
+Use the matching file in [`progress/`](progress/) to record your attempts, hints used, edge cases, and time/space complexity. A problem is not complete merely because you viewed its solution.
 
 ## Publish with GitHub Pages
 
 1. Open **Settings → Pages** in this repository.
-2. Under **Build and deployment**, choose **Deploy from a branch**.
-3. Select `main` and `/(root)`, then save.
-4. The site is published at [https://nikki03-tech.github.io/my-personal-dsa-dashboard/](https://nikki03-tech.github.io/my-personal-dsa-dashboard/).
-
-## Starting point
-
-This plan starts with a reference baseline of **6 previously solved Easy problems**. This is not a live count of new solutions.
+2. Choose **Deploy from a branch**, select `main` and `/(root)`, then save.
+3. The dashboard is published at [https://nikki03-tech.github.io/my-personal-dsa-dashboard/](https://nikki03-tech.github.io/my-personal-dsa-dashboard/).
 
 ## License
 

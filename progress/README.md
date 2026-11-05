@@ -1,15 +1,14 @@
-# Daily progress logs — Expanded 30-Day Python DSA Challenge
+# Daily progress logs — 30-Day Python DSA Challenge
 
-Use one file per challenge day. Days 1–5 preserve the original completed learning notes. Days 6–30 have been refreshed to match the expanded schedule in the dashboard.
+The dashboard now assigns **two LeetCode and two HackerRank problems per day** for every topic. Use the four links in each day card and record your attempt notes here.
 
-For each new day:
-1. Read the concept and trace a small example.
-2. Attempt the core LeetCode problem without looking at the solution.
-3. Attempt the linked HackerRank exercise or the labelled custom Python drill.
+Recommended sequence:
+1. Learn the concept and trace a small example.
+2. Attempt LeetCode Q1, then Q2.
+3. Attempt HackerRank Q1, then Q2.
 4. Test edge cases and write time and space complexity.
-5. Try the optional stretch only after the core pattern makes sense.
-6. Record hints used honestly and explain the approach in your own words.
+5. Record hints used and explain the approach in your own words.
 
-Advanced topics such as Dijkstra, Union-Find, tries, topological sorting, backtracking and dynamic programming are first exposures in this 30-day plan. Revisit them after the challenge. A day is complete when you can explain the pattern and solve or meaningfully reproduce the core solution—not simply when you open the problem.
+For difficult topics, split the four questions across two sessions. Understanding and review are more important than rushing to tick all four in one sitting.
 
-The dashboard stores progress locally in your browser; these Markdown files are the repository's written learning log.
+The dashboard saves completion checkmarks and the DSA chat link in browser local storage. Export progress regularly for a backup.
