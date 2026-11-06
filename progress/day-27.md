@@ -4,6 +4,19 @@
 **Language:** Python  
 **Status:** PLANNED — update this after your attempt.
 
+
+## Updated dashboard assignments — four questions per day
+
+> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+
+### LeetCode
+- [ ] **Q1 — [Jump Game](https://leetcode.com/problems/jump-game/)**
+- [ ] **Q2 — [Gas Station](https://leetcode.com/problems/gas-station/)**
+
+### HackerRank
+- [ ] **Q1 — [Mark and Toys](https://www.hackerrank.com/challenges/mark-and-toys/problem)**
+- [ ] **Q2 — [Greedy Florist](https://www.hackerrank.com/challenges/greedy-florist/problem)**
+
 ## Today's learning goals
 - [ ] Greedy choice and feasibility
 - [ ] Track the farthest reachable index
