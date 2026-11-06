@@ -4,6 +4,19 @@
 **Language:** Python  
 **Status:** PLANNED — update this after your attempt.
 
+
+## Updated dashboard assignments — four questions per day
+
+> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+
+### LeetCode
+- [ ] **Q1 — [Number of Islands](https://leetcode.com/problems/number-of-islands/)**
+- [ ] **Q2 — [Clone Graph](https://leetcode.com/problems/clone-graph/)**
+
+### HackerRank
+- [ ] **Q1 — [BFS: Shortest Reach](https://www.hackerrank.com/challenges/bfsshortreach/problem)**
+- [ ] **Q2 — [Connected Cell in a Grid](https://www.hackerrank.com/challenges/connected-cell-in-a-grid/problem)**
+
 ## Today's learning goals
 - [ ] Adjacency lists and grid graphs
 - [ ] Visited set or visited matrix
