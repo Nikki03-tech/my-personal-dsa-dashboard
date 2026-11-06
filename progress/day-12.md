@@ -4,6 +4,19 @@
 **Language:** Python  
 **Status:** PLANNED — update this after your attempt.
 
+
+## Updated dashboard assignments — four questions per day
+
+> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+
+### LeetCode
+- [ ] **Q1 — [Merge Intervals](https://leetcode.com/problems/merge-intervals/)**
+- [ ] **Q2 — [Insert Interval](https://leetcode.com/problems/insert-interval/)**
+
+### HackerRank
+- [ ] **Q1 — [Interval Selection](https://www.hackerrank.com/challenges/interval-selection/problem)**
+- [ ] **Q2 — [Gridland Metro](https://www.hackerrank.com/challenges/gridland-metro/problem)**
+
 ## Today's learning goals
 - [ ] Represent an interval as [start, end]
 - [ ] Sort by start value
