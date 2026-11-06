@@ -4,6 +4,19 @@
 **Language:** Python  
 **Status:** PLANNED — update this after your attempt.
 
+
+## Updated dashboard assignments — four questions per day
+
+> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+
+### LeetCode
+- [ ] **Q1 — [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)**
+- [ ] **Q2 — [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)**
+
+### HackerRank
+- [ ] **Q1 — [New Year Chaos](https://www.hackerrank.com/challenges/new-year-chaos/problem)**
+- [ ] **Q2 — [Minimum Swaps 2](https://www.hackerrank.com/challenges/minimum-swaps-2/problem)**
+
 ## Today's learning goals
 - [ ] Choose a pattern from an unfamiliar statement
 - [ ] Clarify constraints and edge cases
