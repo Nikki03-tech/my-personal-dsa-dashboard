@@ -4,6 +4,19 @@
 **Language:** Python  
 **Status:** PLANNED — update this after your attempt.
 
+
+## Updated dashboard assignments — four questions per day
+
+> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+
+### LeetCode
+- [ ] **Q1 — [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)**
+- [ ] **Q2 — [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)**
+
+### HackerRank
+- [ ] **Q1 — [Climbing the Leaderboard](https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem)**
+- [ ] **Q2 — [Missing Numbers](https://www.hackerrank.com/challenges/missing-numbers/problem)**
+
 ## Today's learning goals
 - [ ] Rotated sorted arrays
 - [ ] Identify which half is sorted
