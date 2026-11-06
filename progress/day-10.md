@@ -4,6 +4,19 @@
 **Language:** Python  
 **Status:** PLANNED — update this after your attempt.
 
+
+## Updated dashboard assignments — four questions per day
+
+> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+
+### LeetCode
+- [ ] **Q1 — [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)**
+- [ ] **Q2 — [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)**
+
+### HackerRank
+- [ ] **Q1 — [Subarray Division](https://www.hackerrank.com/challenges/the-birthday-bar/problem)**
+- [ ] **Q2 — [Max Min](https://www.hackerrank.com/challenges/angry-children/problem)**
+
 ## Today's learning goals
 - [ ] Fixed-size and variable-size windows
 - [ ] Expand right; shrink left when a rule breaks
