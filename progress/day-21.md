@@ -4,6 +4,19 @@
 **Language:** Python  
 **Status:** PLANNED — update this after your attempt.
 
+
+## Updated dashboard assignments — four questions per day
+
+> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+
+### LeetCode
+- [ ] **Q1 — [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)**
+- [ ] **Q2 — [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)**
+
+### HackerRank
+- [ ] **Q1 — [Find the Running Median](https://www.hackerrank.com/challenges/find-the-running-median/problem)**
+- [ ] **Q2 — [Jesse and Cookies](https://www.hackerrank.com/challenges/jesse-and-cookies/problem)**
+
 ## Today's learning goals
 - [ ] Min-heap and max-heap idea
 - [ ] Python heapq is a min-heap
