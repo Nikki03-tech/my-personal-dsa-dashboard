@@ -4,6 +4,19 @@
 **Language:** Python  
 **Status:** PLANNED — update this after your attempt.
 
+
+## Updated dashboard assignments — four questions per day
+
+> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+
+### LeetCode
+- [ ] **Q1 — [Group Anagrams](https://leetcode.com/problems/group-anagrams/)**
+- [ ] **Q2 — [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)**
+
+### HackerRank
+- [ ] **Q1 — [Sherlock and Anagrams](https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem)**
+- [ ] **Q2 — [Game of Thrones - I](https://www.hackerrank.com/challenges/game-of-thrones/problem)**
+
 ## Today's learning goals
 - [ ] Hash-map values that are lists
 - [ ] Tuple frequency signatures or sorted-string keys
