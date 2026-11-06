@@ -4,6 +4,19 @@
 **Language:** Python  
 **Status:** PLANNED — update this after your attempt.
 
+
+## Updated dashboard assignments — four questions per day
+
+> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+
+### LeetCode
+- [ ] **Q1 — [Subsets](https://leetcode.com/problems/subsets/)**
+- [ ] **Q2 — [Permutations](https://leetcode.com/problems/permutations/)**
+
+### HackerRank
+- [ ] **Q1 — [Recursive Digit Sum](https://www.hackerrank.com/challenges/recursive-digit-sum/problem)**
+- [ ] **Q2 — [Crossword Puzzle](https://www.hackerrank.com/challenges/crossword-puzzle/problem)**
+
 ## Today's learning goals
 - [ ] Base case and recursive case
 - [ ] Call stack and recursion tree
