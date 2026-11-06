@@ -4,6 +4,19 @@
 **Language:** Python  
 **Status:** PLANNED — update this after your attempt.
 
+
+## Updated dashboard assignments — four questions per day
+
+> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+
+### LeetCode
+- [ ] **Q1 — [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)**
+- [ ] **Q2 — [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)**
+
+### HackerRank
+- [ ] **Q1 — [Contacts](https://www.hackerrank.com/challenges/contacts/problem)**
+- [ ] **Q2 — [No Prefix Set](https://www.hackerrank.com/challenges/three-month-preparation-kit-no-prefix-set/problem)**
+
 ## Today's learning goals
 - [ ] Trie node and child map
 - [ ] End-of-word marker
