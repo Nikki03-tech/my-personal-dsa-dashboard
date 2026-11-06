@@ -7,6 +7,21 @@
 **LeetCode:** [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) — Easy — **Accepted**  
 **HackerRank:** [Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays/problem) — **Accepted**
 
+
+## Updated dashboard assignments — four questions per day
+
+> The original two-problem work for this day is preserved below. Under the revised dashboard, Q1 on each platform was completed in the earlier session; the newly added Q2 tasks are still pending. The historical completion status below does not mean the new Q2 tasks have been attempted.
+
+### LeetCode
+
+- [x] **Q1 — [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)** — completed in the original plan
+- [ ] **Q2 — [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)** — newly added in the four-question plan; not yet attempted
+
+### HackerRank
+
+- [x] **Q1 — [Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays/problem)** — completed in the original plan
+- [ ] **Q2 — [Set .add()](https://www.hackerrank.com/challenges/py-set-add/problem)** — newly added in the four-question plan; not yet attempted
+
 ## 1. Concepts learned
 
 - Sets store unique elements and do not contain duplicates.
