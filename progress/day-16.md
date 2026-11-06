@@ -4,6 +4,19 @@
 **Language:** Python  
 **Status:** PLANNED — update this after your attempt.
 
+
+## Updated dashboard assignments — four questions per day
+
+> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+
+### LeetCode
+- [ ] **Q1 — [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)**
+- [ ] **Q2 — [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)**
+
+### HackerRank
+- [ ] **Q1 — [Balanced Brackets](https://www.hackerrank.com/challenges/balanced-brackets/problem)**
+- [ ] **Q2 — [Largest Rectangle](https://www.hackerrank.com/challenges/largest-rectangle/problem)**
+
 ## Today's learning goals
 - [ ] Stack push/pop and matching brackets
 - [ ] Queue enqueue/dequeue
