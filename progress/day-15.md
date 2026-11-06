@@ -4,6 +4,19 @@
 **Language:** Python  
 **Status:** PLANNED — update this after your attempt.
 
+
+## Updated dashboard assignments — four questions per day
+
+> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+
+### LeetCode
+- [ ] **Q1 — [Sort Colors](https://leetcode.com/problems/sort-colors/)**
+- [ ] **Q2 — [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)**
+
+### HackerRank
+- [ ] **Q1 — [Quicksort 1 - Partition](https://www.hackerrank.com/challenges/quicksort1/problem)**
+- [ ] **Q2 — [Counting Sort 1](https://www.hackerrank.com/challenges/countingsort1/problem)**
+
 ## Today's learning goals
 - [ ] Comparison sorting overview
 - [ ] Partition around a pivot
