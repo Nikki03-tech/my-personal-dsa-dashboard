@@ -6,6 +6,21 @@
 **LeetCode:** [Running Sum of 1D Array](https://leetcode.com/problems/running-sum-of-1d-array/) — Accepted  
 **HackerRank:** [Arrays - DS](https://www.hackerrank.com/challenges/arrays-ds/problem) — Accepted (7 test cases)
 
+
+## Updated dashboard assignments — four questions per day
+
+> The original two-problem work for this day is preserved below. Under the revised dashboard, Q1 on each platform was completed in the earlier session; the newly added Q2 tasks are still pending. The historical completion status below does not mean the new Q2 tasks have been attempted.
+
+### LeetCode
+
+- [x] **Q1 — [Running Sum of 1D Array](https://leetcode.com/problems/running-sum-of-1d-array/)** — completed in the original plan
+- [ ] **Q2 — [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)** — newly added in the four-question plan; not yet attempted
+
+### HackerRank
+
+- [x] **Q1 — [Arrays - DS](https://www.hackerrank.com/challenges/arrays-ds/problem)** — completed in the original plan
+- [ ] **Q2 — [Arrays: Left Rotation](https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem)** — newly added in the four-question plan; not yet attempted
+
 ## Today's focus
 
 Array traversal, zero-based indexing, running sums / prefix sums, reverse traversal, and time and space complexity.
