@@ -6,6 +6,21 @@
 **LeetCode:** [Palindrome Number](https://leetcode.com/problems/palindrome-number/) — Easy — **Accepted**  
 **HackerRank:** [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum/problem) — **Accepted**
 
+
+## Updated dashboard assignments — four questions per day
+
+> The original two-problem work for this day is preserved below. Under the revised dashboard, Q1 on each platform was completed in the earlier session; the newly added Q2 tasks are still pending. The historical completion status below does not mean the new Q2 tasks have been attempted.
+
+### LeetCode
+
+- [x] **Q1 — [Palindrome Number](https://leetcode.com/problems/palindrome-number/)** — completed in the original plan
+- [ ] **Q2 — [Reverse Integer](https://leetcode.com/problems/reverse-integer/)** — newly added in the four-question plan; not yet attempted
+
+### HackerRank
+
+- [x] **Q1 — [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum/problem)** — completed in the original plan
+- [ ] **Q2 — [Find Digits](https://www.hackerrank.com/challenges/find-digits/problem)** — newly added in the four-question plan; not yet attempted
+
 ## 1. Important Python concepts
 
 | Syntax | Purpose |
