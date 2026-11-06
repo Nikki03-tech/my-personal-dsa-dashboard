@@ -4,6 +4,19 @@
 **Language:** Python  
 **Status:** PLANNED — update this after your attempt.
 
+
+## Updated dashboard assignments — four questions per day
+
+> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+
+### LeetCode
+- [ ] **Q1 — [Valid Anagram](https://leetcode.com/problems/valid-anagram/)**
+- [ ] **Q2 — [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)**
+
+### HackerRank
+- [ ] **Q1 — [Making Anagrams](https://www.hackerrank.com/challenges/making-anagrams/problem)**
+- [ ] **Q2 — [Anagram](https://www.hackerrank.com/challenges/anagram/problem)**
+
 ## Today's learning goals
 - [ ] String traversal
 - [ ] Character frequency dictionaries
