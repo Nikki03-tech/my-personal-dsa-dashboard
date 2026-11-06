@@ -4,6 +4,19 @@
 **Language:** Python  
 **Status:** PLANNED — update this after your attempt.
 
+
+## Updated dashboard assignments — four questions per day
+
+> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+
+### LeetCode
+- [ ] **Q1 — [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)**
+- [ ] **Q2 — [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)**
+
+### HackerRank
+- [ ] **Q1 — [Tree: Height of a Binary Tree](https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem)**
+- [ ] **Q2 — [Tree: Preorder Traversal](https://www.hackerrank.com/challenges/tree-preorder-traversal/problem)**
+
 ## Today's learning goals
 - [ ] Tree nodes, root, leaves and height
 - [ ] DFS: preorder, inorder and postorder
