@@ -4,6 +4,19 @@
 **Language:** Python  
 **Status:** PLANNED — update this after your attempt.
 
+
+## Updated dashboard assignments — four questions per day
+
+> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+
+### LeetCode
+- [ ] **Q1 — [Course Schedule](https://leetcode.com/problems/course-schedule/)**
+- [ ] **Q2 — [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)**
+
+### HackerRank
+- [ ] **Q1 — [Even Tree](https://www.hackerrank.com/challenges/even-tree/problem)**
+- [ ] **Q2 — [Basic Quiz on Algorithms #1 (includes a topological-sort question)](https://www.hackerrank.com/challenges/basic-algo-quiz-1/problem)**
+
 ## Today's learning goals
 - [ ] Directed graphs and prerequisites
 - [ ] Indegree counts
