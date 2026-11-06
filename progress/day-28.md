@@ -4,6 +4,19 @@
 **Language:** Python  
 **Status:** PLANNED — update this after your attempt.
 
+
+## Updated dashboard assignments — four questions per day
+
+> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+
+### LeetCode
+- [ ] **Q1 — [House Robber](https://leetcode.com/problems/house-robber/)**
+- [ ] **Q2 — [Coin Change](https://leetcode.com/problems/coin-change/)**
+
+### HackerRank
+- [ ] **Q1 — [Max Array Sum](https://www.hackerrank.com/challenges/maxsubarray/problem)**
+- [ ] **Q2 — [The Coin Change Problem](https://www.hackerrank.com/challenges/the-coin-change-problem/problem)**
+
 ## Today's learning goals
 - [ ] State definition and recurrence
 - [ ] Base cases
