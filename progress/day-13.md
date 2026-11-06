@@ -4,6 +4,19 @@
 **Language:** Python  
 **Status:** PLANNED — update this after your attempt.
 
+
+## Updated dashboard assignments — four questions per day
+
+> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+
+### LeetCode
+- [ ] **Q1 — [Binary Search](https://leetcode.com/problems/binary-search/)**
+- [ ] **Q2 — [Search Insert Position](https://leetcode.com/problems/search-insert-position/)**
+
+### HackerRank
+- [ ] **Q1 — [Intro to Tutorial Challenges](https://www.hackerrank.com/challenges/tutorial-intro/problem)**
+- [ ] **Q2 — [Minimum Time Required](https://www.hackerrank.com/challenges/minimum-time-required/problem)**
+
 ## Today's learning goals
 - [ ] low, mid and high indexes
 - [ ] Sorted-input requirement
