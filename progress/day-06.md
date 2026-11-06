@@ -2,51 +2,76 @@
 
 **Date:** November 6, 2026  
 **Language:** Python  
-**Status:** PLANNED — update this after your attempt.
+**Status:** IN PROGRESS
 
 ## Today's learning goals
+
 - [ ] Row and column indexes
 - [ ] Nested loops and matrix dimensions
 - [ ] Primary and secondary diagonals
+- [ ] Matrix transpose
 
-## Core practice
-- **LeetCode:** [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) — Easy
-- **HackerRank / practice:** [2D Array - DS](https://www.hackerrank.com/challenges/2d-array/problem)
+## Assigned coding practice
 
-## How to approach it
-Use the row index to locate the matching diagonal positions. Avoid counting the centre cell twice in an odd-sized square matrix.
+### LeetCode
+
+- [ ] **Q1 — Matrix Diagonal Sum** (Easy): https://leetcode.com/problems/matrix-diagonal-sum/
+- [ ] **Q2 — Transpose Matrix** (Easy): https://leetcode.com/problems/transpose-matrix/
+
+### HackerRank
+
+- [ ] **Q1 — 2D Array - DS**: https://www.hackerrank.com/challenges/2d-array/problem
+- [ ] **Q2 — Matrix Script**: https://www.hackerrank.com/challenges/matrix-script/problem
+
+## Today's focus
+
+Understand how to access matrix elements with `matrix[row][column]`, traverse rows and columns with nested loops, identify both diagonals, and build a transpose by exchanging row and column positions.
+
+For Matrix Diagonal Sum, avoid counting the centre cell twice in an odd-sized square matrix.
 
 ## Edge cases to test
-Test a 1×1 matrix, an odd-sized matrix, an even-sized matrix, and the centre-cell rule.
+
+- A 1×1 matrix
+- An odd-sized square matrix
+- An even-sized square matrix
+- The centre-cell rule for diagonal sums
+- A rectangular matrix for transpose
+- Matrices containing negative and repeated values
 
 ## Optional stretch
-Matrix traversal patterns
+
 Sketch row-wise, column-wise, boundary and spiral traversal. Try Spiral Matrix as an optional follow-up.
 
 ## Complexity review
-- [ ] State the time complexity and explain which input size it depends on.
+
+- [ ] State the time complexity and explain which input dimensions it depends on.
 - [ ] State auxiliary space separately from output space.
-- [ ] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
+- [ ] Explain how matrix dimensions affect the number of operations.
 
 ## Daily checklist
+
 - [ ] Read the concept and trace a small example by hand.
-- [ ] Attempt the core LeetCode problem independently.
-- [ ] Attempt the HackerRank exercise or custom Python drill.
-- [ ] Test the edge cases above.
-- [ ] Explain the approach aloud without reading the solution.
+- [ ] Attempt LeetCode Q1 independently.
+- [ ] Attempt LeetCode Q2 independently.
+- [ ] Attempt HackerRank Q1 independently.
+- [ ] Attempt HackerRank Q2 independently.
+- [ ] Test the relevant edge cases.
+- [ ] Explain each approach aloud without reading the solution.
+- [ ] Complete the mock interview and record answers.
 - [ ] Revisit this pattern after 2–3 days.
 
 ## My attempt notes
-**First approach:**  
 
-**Where I got stuck:**  
+**First approach:**
 
-**Hints used:**  
+**Where I got stuck:**
 
-**Key insight / final approach:**  
+**Hints used:**
 
-**Time complexity:**  
+**Key insight / final approach:**
 
-**Auxiliary space complexity:**  
+**Time complexity:**
 
-**What I learned / what to revise:**  
+**Auxiliary space complexity:**
+
+**What I learned / what to revise:**
