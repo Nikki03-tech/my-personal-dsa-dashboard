@@ -4,6 +4,19 @@
 **Language:** Python  
 **Status:** PLANNED — update this after your attempt.
 
+
+## Updated dashboard assignments — four questions per day
+
+> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+
+### LeetCode
+- [ ] **Q1 — [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)**
+- [ ] **Q2 — [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)**
+
+### HackerRank
+- [ ] **Q1 — [Two Strings](https://www.hackerrank.com/challenges/two-strings/problem)**
+- [ ] **Q2 — [Pairs](https://www.hackerrank.com/challenges/pairs/problem)**
+
 ## Today's learning goals
 - [ ] Left and right pointers
 - [ ] Move one or both pointers based on a condition
