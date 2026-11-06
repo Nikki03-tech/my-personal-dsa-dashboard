@@ -4,6 +4,21 @@
 **Topic:** Conditions, loops, modulo, time complexity and space complexity  
 **Status:** <badge>COMPLETED</badge>
 
+
+## Updated dashboard assignments — four questions per day
+
+> The original two-problem work for this day is preserved below. Under the revised dashboard, Q1 on each platform was completed in the earlier session; the newly added Q2 tasks are still pending. The historical completion status below does not mean the new Q2 tasks have been attempted.
+
+### LeetCode
+
+- [x] **Q1 — [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)** — completed in the original plan
+- [ ] **Q2 — [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)** — newly added in the four-question plan; not yet attempted
+
+### HackerRank
+
+- [x] **Q1 — [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first/problem)** — completed in the original plan
+- [ ] **Q2 — [Python Loops](https://www.hackerrank.com/challenges/python-loops/problem)** — newly added in the four-question plan; not yet attempted
+
 ## 1. Python concepts covered
 
 | Concept | Meaning |
