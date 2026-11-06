@@ -15,13 +15,13 @@
 
 ### LeetCode
 
-- [ ] **Q1 — Matrix Diagonal Sum** (Easy): https://leetcode.com/problems/matrix-diagonal-sum/
-- [ ] **Q2 — Transpose Matrix** (Easy): https://leetcode.com/problems/transpose-matrix/
+- [x] **Q1 — Matrix Diagonal Sum** (Easy): https://leetcode.com/problems/matrix-diagonal-sum/
+- [x] **Q2 — Transpose Matrix** (Easy): https://leetcode.com/problems/transpose-matrix/
 
 ### HackerRank
 
 - [ ] **Q1 — 2D Array - DS**: https://www.hackerrank.com/challenges/2d-array/problem
-- [ ] **Q2 — Matrix Script**: https://www.hackerrank.com/challenges/matrix-script/problem
+- [x] **Q2 — Matrix Script**: https://www.hackerrank.com/challenges/matrix-script/problem
 
 ## Today's focus
 
@@ -59,6 +59,13 @@ Sketch row-wise, column-wise, boundary and spiral traversal. Try Spiral Matrix a
 - [ ] Explain each approach aloud without reading the solution.
 - [ ] Complete the mock interview and record answers.
 - [ ] Revisit this pattern after 2–3 days.
+
+## Confirmed progress
+
+- [x] LeetCode Q1 — Matrix Diagonal Sum — user confirmed both LeetCode questions completed.
+- [x] LeetCode Q2 — Transpose Matrix — user confirmed both LeetCode questions completed.
+- [ ] HackerRank Q1 — 2D Array - DS — submission result not yet confirmed.
+- [x] HackerRank Q2 — Matrix Script — Accepted; all test cases passed.
 
 ## My attempt notes
 
