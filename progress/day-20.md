@@ -4,6 +4,19 @@
 **Language:** Python  
 **Status:** PLANNED — update this after your attempt.
 
+
+## Updated dashboard assignments — four questions per day
+
+> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+
+### LeetCode
+- [ ] **Q1 — [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)**
+- [ ] **Q2 — [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)**
+
+### HackerRank
+- [ ] **Q1 — [Tree Level Order Traversal](https://www.hackerrank.com/challenges/tree-level-order-traversal/problem)**
+- [ ] **Q2 — [Swap Nodes [Algo]](https://www.hackerrank.com/challenges/swap-nodes-algo/problem)**
+
 ## Today's learning goals
 - [ ] Queue of pending nodes
 - [ ] Process the queue size for one level
