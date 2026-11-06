@@ -4,6 +4,19 @@
 **Language:** Python  
 **Status:** PLANNED — update this after your attempt.
 
+
+## Updated dashboard assignments — four questions per day
+
+> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+
+### LeetCode
+- [ ] **Q1 — [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)**
+- [ ] **Q2 — [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)**
+
+### HackerRank
+- [ ] **Q1 — [Detect a Cycle](https://www.hackerrank.com/challenges/ctci-linked-list-cycle/problem)**
+- [ ] **Q2 — [Find the Merge Point of Two Joined Linked Lists](https://www.hackerrank.com/challenges/find-the-merge-point-of-two-joined-linked-lists/problem)**
+
 ## Today's learning goals
 - [ ] Node and next references
 - [ ] Slow pointer moves one step; fast moves two
