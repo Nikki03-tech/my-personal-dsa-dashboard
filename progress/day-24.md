@@ -4,6 +4,19 @@
 **Language:** Python  
 **Status:** PLANNED — update this after your attempt.
 
+
+## Updated dashboard assignments — four questions per day
+
+> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+
+### LeetCode
+- [ ] **Q1 — [Network Delay Time](https://leetcode.com/problems/network-delay-time/)**
+- [ ] **Q2 — [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)**
+
+### HackerRank
+- [ ] **Q1 — [Dijkstra: Shortest Reach 2](https://www.hackerrank.com/challenges/dijkstra-shortest-reach-2/problem)**
+- [ ] **Q2 — [Floyd: City of Blinding Lights](https://www.hackerrank.com/challenges/floyd-city-of-blinding-lights/problem)**
+
 ## Today's learning goals
 - [ ] Weighted directed graph
 - [ ] Distance table
