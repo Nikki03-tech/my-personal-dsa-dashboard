@@ -4,6 +4,19 @@
 **Language:** Python  
 **Status:** PLANNED — update this after your attempt.
 
+
+## Updated dashboard assignments — four questions per day
+
+> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+
+### LeetCode
+- [ ] **Q1 — [Single Number](https://leetcode.com/problems/single-number/)**
+- [ ] **Q2 — [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)**
+
+### HackerRank
+- [ ] **Q1 — [Flipping Bits](https://www.hackerrank.com/challenges/flipping-bits/problem)**
+- [ ] **Q2 — [Sum vs XOR](https://www.hackerrank.com/challenges/sum-vs-xor/problem)**
+
 ## Today's learning goals
 - [ ] Binary representation; AND, OR, XOR and shifts
 - [ ] XOR cancellation property
