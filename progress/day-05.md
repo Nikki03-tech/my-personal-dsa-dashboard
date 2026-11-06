@@ -4,6 +4,21 @@
 **Language:** Python  
 **Status:** COMPLETED ✅
 
+
+## Updated dashboard assignments — four questions per day
+
+> The original two-problem work for this day is preserved below. Under the revised dashboard, Q1 on each platform was completed in the earlier session; the newly added Q2 tasks are still pending. The historical completion status below does not mean the new Q2 tasks have been attempted.
+
+### LeetCode
+
+- [x] **Q1 — [Two Sum](https://leetcode.com/problems/two-sum/)** — completed in the original plan
+- [ ] **Q2 — [Majority Element](https://leetcode.com/problems/majority-element/)** — newly added in the four-question plan; not yet attempted
+
+### HackerRank
+
+- [x] **Q1 — [Ransom Note](https://www.hackerrank.com/challenges/ctci-ransom-note/problem)** — completed in the original plan
+- [ ] **Q2 — [Frequency Queries](https://www.hackerrank.com/challenges/frequency-queries/problem)** — newly added in the four-question plan; not yet attempted
+
 ## 1. Concepts Learned
 
 - Hash Maps using Python dictionaries (`dict`).
