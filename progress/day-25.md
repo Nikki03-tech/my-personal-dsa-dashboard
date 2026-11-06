@@ -4,6 +4,19 @@
 **Language:** Python  
 **Status:** PLANNED — update this after your attempt.
 
+
+## Updated dashboard assignments — four questions per day
+
+> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+
+### LeetCode
+- [ ] **Q1 — [Redundant Connection](https://leetcode.com/problems/redundant-connection/)**
+- [ ] **Q2 — [Number of Provinces](https://leetcode.com/problems/number-of-provinces/)**
+
+### HackerRank
+- [ ] **Q1 — [Components in a Graph](https://www.hackerrank.com/challenges/components-in-graph/problem)**
+- [ ] **Q2 — [Journey to the Moon](https://www.hackerrank.com/challenges/journey-to-the-moon/problem)**
+
 ## Today's learning goals
 - [ ] parent array and find()
 - [ ] union() operation
