@@ -4,6 +4,19 @@
 **Language:** Python  
 **Status:** PLANNED — update this after your attempt.
 
+
+## Updated dashboard assignments — four questions per day
+
+> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+
+### LeetCode
+- [ ] **Q1 — [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)**
+- [ ] **Q2 — [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)**
+
+### HackerRank
+- [ ] **Q1 — [Array Manipulation](https://www.hackerrank.com/challenges/crush/problem)**
+- [ ] **Q2 — [Sherlock and Array](https://www.hackerrank.com/challenges/sherlock-and-array/problem)**
+
 ## Today's learning goals
 - [ ] Prefix sum array and running total
 - [ ] Left sum vs right sum
