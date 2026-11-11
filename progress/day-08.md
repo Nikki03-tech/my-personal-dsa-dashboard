@@ -1,65 +1,66 @@
 # Day 08 — Strings and character frequencies
 
-**Date:** November 8, 2026  
+**Date:** November 10–11, 2026  
 **Language:** Python  
-**Status:** PLANNED — update this after your attempt.
-
+**Status:** COMPLETED — all four assigned problems accepted.
 
 ## Updated dashboard assignments — four questions per day
 
-> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
-
 ### LeetCode
-- [ ] **Q1 — [Valid Anagram](https://leetcode.com/problems/valid-anagram/)**
-- [ ] **Q2 — [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)**
+- [x] **Q1 — [Valid Anagram](https://leetcode.com/problems/valid-anagram/)** — Accepted
+- [x] **Q2 — [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)** — Accepted
 
 ### HackerRank
-- [ ] **Q1 — [Making Anagrams](https://www.hackerrank.com/challenges/making-anagrams/problem)**
-- [ ] **Q2 — [Anagram](https://www.hackerrank.com/challenges/anagram/problem)**
+- [x] **Q1 — [Making Anagrams](https://www.hackerrank.com/challenges/making-anagrams/problem)** — Accepted
+- [x] **Q2 — [Anagram](https://www.hackerrank.com/challenges/anagram/problem)** — Accepted
 
 ## Today's learning goals
-- [ ] String traversal
-- [ ] Character frequency dictionaries
+- [x] String traversal
+- [x] Character frequency dictionaries
 - [ ] Sorting strings as an alternative
 
 ## Core practice
-- **LeetCode:** [Valid Anagram](https://leetcode.com/problems/valid-anagram/) — Easy
-- **HackerRank / practice:** [Making Anagrams](https://www.hackerrank.com/challenges/making-anagrams/problem)
+- **LeetCode:** [Valid Anagram](https://leetcode.com/problems/valid-anagram/) — Accepted
+- **LeetCode:** [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) — Accepted
+- **HackerRank:** [Making Anagrams](https://www.hackerrank.com/challenges/making-anagrams/problem) — Accepted
+- **HackerRank:** [Anagram](https://www.hackerrank.com/challenges/anagram/problem) — Accepted
 
 ## How to approach it
-Count how many times each character appears in both strings, then compare the frequency information.
+Count how many times each character appears using dictionaries. Compare frequency information to check anagrams, find unique characters, or calculate the minimum number of deletions/changes.
 
-## Edge cases to test
-Test different lengths, repeated letters, uppercase/lowercase assumptions, and empty strings.
+## Key Python patterns
+```python
+count[char] = count.get(char, 0) + 1
+```
 
-## Optional stretch
-[Group Anagrams preview](https://leetcode.com/problems/group-anagrams/)
-Notice how a canonical key can group strings with the same character frequencies.
+- `enumerate(s)` gives both the index and character.
+- `set(s1 + s2)` visits each distinct character across both strings.
+- `abs(a - b)` gives the absolute frequency difference.
+- For HackerRank Anagram, split an even-length string into two halves; an odd-length string returns `-1`.
 
 ## Complexity review
-- [ ] State the time complexity and explain which input size it depends on.
-- [ ] State auxiliary space separately from output space.
-- [ ] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
+- Frequency counting and comparison are generally **O(n)** time for strings of length n, with **O(k)** auxiliary space for k distinct characters.
+- The Anagram problem also uses linear time and frequency storage for the characters in the halves.
 
 ## Daily checklist
-- [ ] Read the concept and trace a small example by hand.
-- [ ] Attempt the core LeetCode problem independently.
-- [ ] Attempt the HackerRank exercise or custom Python drill.
-- [ ] Test the edge cases above.
+- [x] Read the concept and trace small examples by hand.
+- [x] Complete both assigned LeetCode problems.
+- [x] Complete both assigned HackerRank problems.
+- [ ] Test all listed edge cases.
 - [ ] Explain the approach aloud without reading the solution.
 - [ ] Revisit this pattern after 2–3 days.
 
 ## My attempt notes
-**First approach:**  
+**First approach:** Use dictionaries to count character frequencies.
 
-**Where I got stuck:**  
+**Where I got stuck:** Understanding how to compare character frequencies and count the minimum changes/deletions.
 
-**Hints used:**  
+**Hints used:** Step-by-step frequency-table tracing and checking whether a character is available in the first-half frequency dictionary.
 
-**Key insight / final approach:**  
+**Key insight / final approach:** Anagrams have matching character frequencies. For Making Anagrams, add the absolute differences between the two strings' character counts. For HackerRank Anagram, match second-half characters against the first-half counts and count unmatched characters as required changes.
 
-**Time complexity:**  
+**Time complexity:** O(n) for the frequency-counting approaches.
 
-**Auxiliary space complexity:**  
+**Auxiliary space complexity:** O(k), where k is the number of distinct characters.
 
-**What I learned / what to revise:**  
+**What I learned / what to revise:** Dictionary frequency counting, `get()`, `enumerate()`, `set()`, `abs()`, splitting strings into halves, and handling odd-length strings.
