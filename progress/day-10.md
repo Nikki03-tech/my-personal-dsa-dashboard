@@ -1,65 +1,94 @@
-# Day 10 — Sliding window
+# Day 10 — Sliding Window
 
-**Date:** November 10, 2026  
+**Date studied:** November 11, 2026  
 **Language:** Python  
-**Status:** PLANNED — update this after your attempt.
+**Status:** SOLUTIONS EXPLAINED — submission results not yet confirmed.
 
-
-## Updated dashboard assignments — four questions per day
-
-> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+## 1. Assigned questions and submission status
 
 ### LeetCode
-- [ ] **Q1 — [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)**
-- [ ] **Q2 — [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)**
+- [ ] **Q1 — [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)** — solution explained; submission unconfirmed
+- [ ] **Q2 — [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)** — solution explained; submission unconfirmed
 
 ### HackerRank
-- [ ] **Q1 — [Subarray Division](https://www.hackerrank.com/challenges/the-birthday-bar/problem)**
-- [ ] **Q2 — [Max Min](https://www.hackerrank.com/challenges/angry-children/problem)**
+- [ ] **Q1 — [Subarray Division](https://www.hackerrank.com/challenges/the-birthday-bar/problem)** — solution explained; submission unconfirmed
+- [ ] **Q2 — [Max Min](https://www.hackerrank.com/challenges/angry-children/problem)** — solution explained; submission unconfirmed
 
-## Today's learning goals
-- [ ] Fixed-size and variable-size windows
-- [ ] Expand right; shrink left when a rule breaks
-- [ ] Track last-seen indexes or frequencies
+## 2. Concepts covered
 
-## Core practice
-- **LeetCode:** [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) — Medium
-- **HackerRank / practice:** [Subarray Division](https://www.hackerrank.com/challenges/the-birthday-bar/problem)
+- A sliding window is a continuous range of an array or string.
+- Fixed-size windows always contain exactly k elements.
+- Variable-size windows grow or shrink based on a condition.
+- Reuse the previous window's information instead of recalculating it.
+- Window length = `right - left + 1`.
 
-## How to approach it
-Move the right edge through the string. When a repeated character violates the rule, move the left edge until the window is valid again.
+## 3. Core patterns
 
-## Edge cases to test
-Test an empty string, all unique characters, all repeated characters, and a repeat just outside the current window.
+### Fixed-size sum window
 
-## Optional stretch
-Window pattern comparison
-Explain the difference between a fixed-size window (like Subarray Division) and a variable-size window (this problem).
+```python
+window_sum = sum(nums[:k])
+max_sum = window_sum
 
-## Complexity review
-- [ ] State the time complexity and explain which input size it depends on.
-- [ ] State auxiliary space separately from output space.
-- [ ] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
+for right in range(k, len(nums)):
+    window_sum += nums[right]
+    window_sum -= nums[right - k]
+    max_sum = max(max_sum, window_sum)
+```
 
-## Daily checklist
-- [ ] Read the concept and trace a small example by hand.
-- [ ] Attempt the core LeetCode problem independently.
-- [ ] Attempt the HackerRank exercise or custom Python drill.
-- [ ] Test the edge cases above.
-- [ ] Explain the approach aloud without reading the solution.
-- [ ] Revisit this pattern after 2–3 days.
+Add the entering value and subtract the value that leaves.
 
-## My attempt notes
-**First approach:**  
+### Variable-size unique-character window
 
-**Where I got stuck:**  
+```python
+left = 0
+seen = set()
+max_length = 0
 
-**Hints used:**  
+for right in range(len(s)):
+    while s[right] in seen:
+        seen.remove(s[left])
+        left += 1
 
-**Key insight / final approach:**  
+    seen.add(s[right])
+    max_length = max(max_length, right - left + 1)
 
-**Time complexity:**  
+return max_length
+```
 
-**Auxiliary space complexity:**  
+Use `while` because several characters may need to be removed before the window becomes valid again.
 
-**What I learned / what to revise:**  
+### Max Min after sorting
+
+```python
+def maxMin(k, arr):
+    arr.sort()
+    answer = float('inf')
+
+    for i in range(len(arr) - k + 1):
+        answer = min(answer, arr[i + k - 1] - arr[i])
+
+    return answer
+```
+
+## 4. Key examples
+
+For `nums = [1, 12, -5, -6, 50, 3]`, k = 4, the best window is `[12, -5, -6, 50]`; its average is 12.75.
+
+For `s = "abca"`, the longest substring without repeating characters is `"abc"` or `"bca"`, length 3.
+
+## 5. Complexity
+
+- Fixed-size window sum: O(n) time, O(1) extra space.
+- Variable-size unique-character window: O(n) average time; O(k) space for distinct characters.
+- Max Min: O(n log n) sorting plus O(n) scan.
+
+## 6. Common mistakes
+
+- Recalculating the full sum for every window.
+- Removing the wrong outgoing item; use `nums[right - k]`.
+- Forgetting to check the first window.
+- Using `if` instead of `while` to shrink a variable window.
+- Forgetting +1 in `right - left + 1`.
+
+**Learning status:** All four solutions have been provided and explained. Do not mark a question Accepted until its platform submission confirms it.
