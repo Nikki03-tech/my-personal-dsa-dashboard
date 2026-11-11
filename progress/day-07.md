@@ -2,7 +2,7 @@
 
 **Date:** November 7, 2026  
 **Language:** Python  
-**Status:** COMPLETED — confirmed by user ✅
+**Status:** COMPLETED — all four LeetCode and HackerRank solutions confirmed Accepted by user ✅
 
 ## 1. Concepts covered
 
@@ -47,14 +47,14 @@ range_sum = prefix[right + 1] - prefix[left]
 ## 4. Assigned coding practice
 
 ### LeetCode
-- [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)
-- [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
+- [x] [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) — Accepted
+- [x] [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) — Accepted
 
 ### HackerRank
-- [Array Manipulation](https://www.hackerrank.com/challenges/crush/problem)
-- [Sherlock and Array](https://www.hackerrank.com/challenges/sherlock-and-array/problem)
+- [x] [Array Manipulation](https://www.hackerrank.com/challenges/crush/problem) — Accepted
+- [x] [Sherlock and Array](https://www.hackerrank.com/challenges/sherlock-and-array/problem) — Accepted
 
-**Completion note:** The user confirmed Day 7 is completed. Individual acceptance results and personal attempt details were not present in the previous dashboard entry, so they are not reported here as verified.
+**Completion note:** The user confirmed all four assigned LeetCode and HackerRank solutions were Accepted.
 
 ## 5. Edge cases to remember
 
