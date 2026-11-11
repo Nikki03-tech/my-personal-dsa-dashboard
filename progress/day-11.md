@@ -2,17 +2,17 @@
 
 **Date studied:** November 11, 2026  
 **Language:** Python  
-**Status:** SOLUTIONS EXPLAINED — submission results not yet confirmed.
+**Status:** COMPLETED — all four LeetCode and HackerRank solutions confirmed Accepted by user.
 
 ## 1. Assigned questions and submission status
 
 ### LeetCode
-- [ ] **Q1 — [Group Anagrams](https://leetcode.com/problems/group-anagrams/)** — solution explained; submission unconfirmed
-- [ ] **Q2 — [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)** — solution explained; submission unconfirmed
+- [x] **Q1 — [Group Anagrams](https://leetcode.com/problems/group-anagrams/)** — Accepted
+- [x] **Q2 — [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)** — Accepted
 
 ### HackerRank
-- [ ] **Q1 — [Sherlock and Anagrams](https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem)** — solution explained; submission unconfirmed
-- [ ] **Q2 — [Game of Thrones - I](https://www.hackerrank.com/challenges/game-of-thrones/problem)** — solution explained; submission unconfirmed
+- [x] **Q1 — [Sherlock and Anagrams](https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem)** — Accepted
+- [x] **Q2 — [Game of Thrones - I](https://www.hackerrank.com/challenges/game-of-thrones/problem)** — Accepted
 
 ## 2. Concepts covered
 
@@ -98,4 +98,4 @@ return "YES" if odd_count <= 1 else "NO"
 - Incrementing the Sherlock key before counting earlier matches.
 - Allowing more than one odd frequency for a palindrome.
 
-**Learning status:** All four solutions have been provided and explained. Do not mark a question Accepted until its platform submission confirms it.
+**Completion note:** The user confirmed all four LeetCode and HackerRank solutions were Accepted.
