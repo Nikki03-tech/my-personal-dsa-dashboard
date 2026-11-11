@@ -2,7 +2,7 @@
 
 **Date completed:** November 11, 2026  
 **Language:** Python  
-**Status:** COMPLETED — 3 accepted; Q4 solution reviewed (submission not confirmed)
+**Status:** COMPLETED — all four LeetCode and HackerRank solutions confirmed Accepted by user.
 
 ## Completed questions
 
@@ -12,7 +12,7 @@
 
 ### HackerRank
 - [x] **Q1 — [Two Strings](https://www.hackerrank.com/challenges/two-strings/problem)** — Accepted
-- [ ] **Q2 — [Pairs](https://www.hackerrank.com/challenges/pairs/problem)** — Solution reviewed; submission not confirmed
+- [x] **Q2 — [Pairs](https://www.hackerrank.com/challenges/pairs/problem)** — Accepted
 
 ## Learning goals
 - [x] Left and right pointers
@@ -72,4 +72,4 @@ def pairs(k, arr):
 - Compare time complexity and auxiliary space separately.
 
 ## Daily status
-Three problems are confirmed Accepted. The Pairs solution was explained and reviewed, but its submission is not confirmed.
+All four assigned problems are confirmed Accepted by the user.
