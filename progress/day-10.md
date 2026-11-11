@@ -2,17 +2,17 @@
 
 **Date studied:** November 11, 2026  
 **Language:** Python  
-**Status:** SOLUTIONS EXPLAINED — submission results not yet confirmed.
+**Status:** COMPLETED — all four LeetCode and HackerRank solutions confirmed Accepted by user.
 
 ## 1. Assigned questions and submission status
 
 ### LeetCode
-- [ ] **Q1 — [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)** — solution explained; submission unconfirmed
-- [ ] **Q2 — [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)** — solution explained; submission unconfirmed
+- [x] **Q1 — [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)** — Accepted
+- [x] **Q2 — [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)** — Accepted
 
 ### HackerRank
-- [ ] **Q1 — [Subarray Division](https://www.hackerrank.com/challenges/the-birthday-bar/problem)** — solution explained; submission unconfirmed
-- [ ] **Q2 — [Max Min](https://www.hackerrank.com/challenges/angry-children/problem)** — solution explained; submission unconfirmed
+- [x] **Q1 — [Subarray Division](https://www.hackerrank.com/challenges/the-birthday-bar/problem)** — Accepted
+- [x] **Q2 — [Max Min](https://www.hackerrank.com/challenges/angry-children/problem)** — Accepted
 
 ## 2. Concepts covered
 
@@ -91,4 +91,4 @@ For `s = "abca"`, the longest substring without repeating characters is `"abc"` 
 - Using `if` instead of `while` to shrink a variable window.
 - Forgetting +1 in `right - left + 1`.
 
-**Learning status:** All four solutions have been provided and explained. Do not mark a question Accepted until its platform submission confirms it.
+**Completion note:** The user confirmed all four LeetCode and HackerRank solutions were Accepted.
