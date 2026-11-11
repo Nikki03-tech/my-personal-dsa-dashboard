@@ -1,65 +1,101 @@
-# Day 11 — Advanced hashing and grouping
+# Day 11 — Advanced Hashing and Grouping
 
-**Date:** November 11, 2026  
+**Date studied:** November 11, 2026  
 **Language:** Python  
-**Status:** PLANNED — update this after your attempt.
+**Status:** SOLUTIONS EXPLAINED — submission results not yet confirmed.
 
-
-## Updated dashboard assignments — four questions per day
-
-> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+## 1. Assigned questions and submission status
 
 ### LeetCode
-- [ ] **Q1 — [Group Anagrams](https://leetcode.com/problems/group-anagrams/)**
-- [ ] **Q2 — [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)**
+- [ ] **Q1 — [Group Anagrams](https://leetcode.com/problems/group-anagrams/)** — solution explained; submission unconfirmed
+- [ ] **Q2 — [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)** — solution explained; submission unconfirmed
 
 ### HackerRank
-- [ ] **Q1 — [Sherlock and Anagrams](https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem)**
-- [ ] **Q2 — [Game of Thrones - I](https://www.hackerrank.com/challenges/game-of-thrones/problem)**
+- [ ] **Q1 — [Sherlock and Anagrams](https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem)** — solution explained; submission unconfirmed
+- [ ] **Q2 — [Game of Thrones - I](https://www.hackerrank.com/challenges/game-of-thrones/problem)** — solution explained; submission unconfirmed
 
-## Today's learning goals
-- [ ] Hash-map values that are lists
-- [ ] Tuple frequency signatures or sorted-string keys
-- [ ] Counting matching signatures
+## 2. Concepts covered
 
-## Core practice
-- **LeetCode:** [Group Anagrams](https://leetcode.com/problems/group-anagrams/) — Medium
-- **HackerRank / practice:** [Sherlock and Anagrams](https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem)
+- A dictionary can map one key to a list of grouped values.
+- A sorted string can be used as an anagram signature.
+- Character-frequency tuples are another possible anagram signature.
+- Sliding windows can compare anagram frequencies efficiently.
+- A dictionary can count how often a substring signature has appeared.
+- A rearrangeable palindrome can have at most one odd character frequency.
 
-## How to approach it
-Create the same deterministic key for words that contain the same letters, then append each word to the bucket for that key.
+## 3. Core patterns
 
-## Edge cases to test
-Test empty strings, repeated words, words with different lengths, and words with repeated characters.
+### Group Anagrams
 
-## Optional stretch
-Hashing trade-offs
-Compare sorting each word for a key with building a 26-character frequency tuple.
+```python
+groups = {}
 
-## Complexity review
-- [ ] State the time complexity and explain which input size it depends on.
-- [ ] State auxiliary space separately from output space.
-- [ ] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
+for word in strs:
+    key = ''.join(sorted(word))
+    if key not in groups:
+        groups[key] = []
+    groups[key].append(word)
 
-## Daily checklist
-- [ ] Read the concept and trace a small example by hand.
-- [ ] Attempt the core LeetCode problem independently.
-- [ ] Attempt the HackerRank exercise or custom Python drill.
-- [ ] Test the edge cases above.
-- [ ] Explain the approach aloud without reading the solution.
-- [ ] Revisit this pattern after 2–3 days.
+return list(groups.values())
+```
 
-## My attempt notes
-**First approach:**  
+### Find All Anagrams — window update
 
-**Where I got stuck:**  
+```python
+window_count[new_char] = window_count.get(new_char, 0) + 1
+window_count[old_char] -= 1
 
-**Hints used:**  
+if window_count[old_char] == 0:
+    del window_count[old_char]
+```
 
-**Key insight / final approach:**  
+Compare the window's frequency dictionary with the frequency dictionary of p. A match means the current window is an anagram.
 
-**Time complexity:**  
+### Sherlock and Anagrams
 
-**Auxiliary space complexity:**  
+```python
+from collections import defaultdict
 
-**What I learned / what to revise:**  
+def sherlockAndAnagrams(s):
+    groups = defaultdict(int)
+    count = 0
+
+    for i in range(len(s)):
+        for j in range(i, len(s)):
+            key = ''.join(sorted(s[i:j + 1]))
+            count += groups[key]
+            groups[key] += 1
+
+    return count
+```
+
+Add the number of earlier matching substrings before incrementing the key's frequency.
+
+### Game of Thrones - I
+
+```python
+frequency = {}
+for char in s:
+    frequency[char] = frequency.get(char, 0) + 1
+
+odd_count = sum(value % 2 != 0 for value in frequency.values())
+return "YES" if odd_count <= 1 else "NO"
+```
+
+## 4. Complexity
+
+- Group Anagrams with sorted keys: O(n × k log k), where n is the number of words and k is the maximum word length.
+- Find All Anagrams: O(n) time for a fixed 26-letter alphabet, O(1) frequency space.
+- Sherlock and Anagrams with sorted substrings: O(n³ log n) upper bound for this straightforward method.
+- Game of Thrones - I: O(n) time and O(1) space for a fixed lowercase alphabet.
+
+## 5. Common mistakes
+
+- Using the original word as the key instead of a normalized key.
+- Forgetting to join sorted letters into a string.
+- Comparing only lengths instead of character frequencies.
+- Keeping zero-count keys when comparing window dictionaries directly.
+- Incrementing the Sherlock key before counting earlier matches.
+- Allowing more than one odd frequency for a palindrome.
+
+**Learning status:** All four solutions have been provided and explained. Do not mark a question Accepted until its platform submission confirms it.
