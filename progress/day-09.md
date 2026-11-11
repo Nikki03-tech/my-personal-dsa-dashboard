@@ -12,7 +12,7 @@
 
 ### HackerRank
 - [x] **Q1 — [Two Strings](https://www.hackerrank.com/challenges/two-strings/problem)** — Accepted
-- [x] **Q2 — [Pairs](https://www.hackerrank.com/challenges/pairs/problem)** — Solution reviewed; HackerRank submission not confirmed
+- [ ] **Q2 — [Pairs](https://www.hackerrank.com/challenges/pairs/problem)** — Solution reviewed; submission not confirmed
 
 ## Learning goals
 - [x] Left and right pointers
@@ -72,4 +72,4 @@ def pairs(k, arr):
 - Compare time complexity and auxiliary space separately.
 
 ## Daily status
-All four assigned Day 9 problems are marked complete.
+Three problems are confirmed Accepted. The Pairs solution was explained and reviewed, but its submission is not confirmed.
