@@ -2,7 +2,7 @@
 
 **Date completed:** November 11, 2026  
 **Language:** Python  
-**Status:** COMPLETED — 4/4 accepted
+**Status:** COMPLETED — 3 accepted; Q4 solution reviewed (submission not confirmed)
 
 ## Completed questions
 
@@ -12,7 +12,7 @@
 
 ### HackerRank
 - [x] **Q1 — [Two Strings](https://www.hackerrank.com/challenges/two-strings/problem)** — Accepted
-- [x] **Q2 — [Pairs](https://www.hackerrank.com/challenges/pairs/problem)** — Accepted (solution reviewed)
+- [x] **Q2 — [Pairs](https://www.hackerrank.com/challenges/pairs/problem)** — Solution reviewed; HackerRank submission not confirmed
 
 ## Learning goals
 - [x] Left and right pointers
