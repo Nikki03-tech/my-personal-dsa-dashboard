@@ -76,6 +76,7 @@ Clear, beginner-friendly revision notes with explanations, Python patterns, exam
 - [Day 9 — Two Pointers](notes/day-09.md)
 - [Day 10 — Sliding Window](notes/day-10.md)
 - [Day 11 — Advanced Hashing and Grouping](notes/day-11.md)
+- [Day 12 — Intervals and Greedy Algorithms](notes/day-12.md)
 
 ## Progress logs
 
