@@ -2,175 +2,63 @@
 
 **Date:** November 13, 2026  
 **Language:** Python  
-**Status:** COMPLETED ✅
+**Status:** COMPLETED — all 4 assigned problems submitted and accepted.
 
-## 1. Concepts Learned
+## Updated dashboard assignments — four questions per day
 
-- Binary Search is an efficient searching technique used on sorted arrays.
-- It repeatedly divides the search range in half.
-- `low` represents the starting index.
-- `high` represents the ending index.
-- `mid` represents the middle index.
-- `mid = (low + high) // 2` calculates the middle index.
-- If the middle element is smaller than the target, search the right half.
-- If the middle element is greater than the target, search the left half.
-- Binary Search takes O(log n) time.
-- Binary Search can also find an insertion position.
-- Binary Search on Answer is used to find the minimum or maximum feasible answer, such as minimum production time.
+### LeetCode
+- [x] **Q1 — [Binary Search](https://leetcode.com/problems/binary-search/)** — Accepted
+- [x] **Q2 — [Search Insert Position](https://leetcode.com/problems/search-insert-position/)** — Accepted
 
-## 2. Important Logic
+### HackerRank
+- [x] **Q1 — [Intro to Tutorial Challenges](https://www.hackerrank.com/challenges/tutorial-intro/problem)** — Accepted
+- [x] **Q2 — [Minimum Time Required](https://www.hackerrank.com/challenges/minimum-time-required/problem)** — Accepted
 
-### Binary Search — LeetCode
+## Today's learning goals
+- [x] Understand the `low`, `mid`, and `high` boundaries.
+- [x] Understand why Binary Search requires sorted input.
+- [x] Calculate the middle index using integer division.
+- [x] Update the search range by moving left or right.
+- [x] Find an insertion position when a target is absent.
+- [x] Apply Binary Search on Answer to find a minimum feasible time.
 
-```python
-low = 0
-high = len(nums) - 1
+## Core patterns learned
 
-while low <= high:
-    mid = (low + high) // 2
+1. **Binary Search:** Calculate `mid`, compare `nums[mid]` with the target, and discard the half that cannot contain the target.
+2. **Search Insert Position:** Use the same binary search; when the target is absent, the final `low` is its insertion position.
+3. **Intro to Tutorial Challenges:** Use binary search on the sorted array and return the matching index.
+4. **Minimum Time Required:** Binary search a range of possible times. Count production with `mid // machine`; if the goal is reached, try a smaller time, otherwise try a larger time.
 
-    if nums[mid] == target:
-        return mid
-    elif nums[mid] < target:
-        low = mid + 1
-    else:
-        high = mid - 1
+## Important edge cases to review
+- Empty array and one-element array for index-based binary search.
+- Target at the first or last position.
+- Target smaller than every element or larger than every element.
+- Target not present between two elements.
+- For Minimum Time Required, a goal that can be reached by one machine and a goal that requires multiple machines.
+- A candidate time that produces exactly the goal versus more than the goal.
 
-return -1
-```
+## Complexity review
+- **Binary Search:** O(log n) time; O(1) auxiliary space.
+- **Search Insert Position:** O(log n) time; O(1) auxiliary space.
+- **Intro to Tutorial Challenges:** O(log n) time; O(1) auxiliary space.
+- **Minimum Time Required:** O(n × log(min(machines) × goal)) time; O(1) auxiliary space.
 
-### Search Insert Position — LeetCode
+## Daily checklist
+- [x] Read the concept and trace examples.
+- [x] Complete both LeetCode questions.
+- [x] Complete both HackerRank questions.
+- [x] Review the final approaches.
+- [x] Review time and space complexity.
+- [ ] Independently test additional edge cases.
+- [ ] Revisit this pattern after 2–3 days.
 
-```python
-low = 0
-high = len(nums) - 1
+## My attempt notes
+**First approach:** Learned standard binary search using `low`, `high`, and `mid`, then applied the same idea to insertion position and tutorial search.
 
-while low <= high:
-    mid = (low + high) // 2
+**Where I got stuck:** Initially calculated the middle index incorrectly. For `low = 0` and `high = 5`, the correct `mid` is `2`.
 
-    if nums[mid] == target:
-        return mid
-    elif nums[mid] < target:
-        low = mid + 1
-    else:
-        high = mid - 1
+**Key insight / final approach:** For index search, compare the middle value and discard half the range. For Search Insert Position, return `low` after the loop. For Minimum Time Required, binary search the possible time and count how many items the machines can produce.
 
-return low
-```
+**Submission result:** All four assigned problems were submitted and accepted, as confirmed by the user.
 
-### Intro to Tutorial Challenges — HackerRank
-
-```python
-def introTutorial(V, arr):
-    low = 0
-    high = len(arr) - 1
-
-    while low <= high:
-        mid = (low + high) // 2
-
-        if arr[mid] == V:
-            return mid
-        elif arr[mid] < V:
-            low = mid + 1
-        else:
-            high = mid - 1
-
-    return -1
-```
-
-### Minimum Time Required — HackerRank
-
-```python
-def minTime(machines, goal):
-    low = 1
-    high = min(machines) * goal
-
-    while low < high:
-        mid = (low + high) // 2
-        total = 0
-
-        for machine in machines:
-            total += mid // machine
-
-            if total >= goal:
-                break
-
-        if total >= goal:
-            high = mid
-        else:
-            low = mid + 1
-
-    return low
-```
-
-## 3. Mistakes Corrected
-
-- Learned that Binary Search requires a sorted array.
-- Corrected the middle-index calculation. For `low = 0` and `high = 5`, the correct `mid` is `2`.
-- Understood why we use `mid + 1` when searching the right half.
-- Understood why we use `mid - 1` when searching the left half.
-- Learned the difference between returning `-1` and returning `low`.
-- Understood that `return low` gives the correct insertion position when the target is not found.
-- Learned that `while low <= high` is used for normal Binary Search, while `while low < high` is used in this minimum-time answer search.
-- Understood that producing enough items means we should try a smaller time.
-
-## 4. Coding Problems Completed
-
-| Platform | Problem | Result |
-|---|---|---|
-| LeetCode | [Binary Search](https://leetcode.com/problems/binary-search/) | Accepted ✅ |
-| LeetCode | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Accepted ✅ |
-| HackerRank | [Intro to Tutorial Challenges](https://www.hackerrank.com/challenges/tutorial-intro/problem) | Accepted ✅ |
-| HackerRank | [Minimum Time Required](https://www.hackerrank.com/challenges/minimum-time-required/problem) | Accepted ✅ |
-
-## 5. Time & Space Complexity
-
-| Problem | Time | Auxiliary Space |
-|---|---|---|
-| Binary Search | O(log n) | O(1) |
-| Search Insert Position | O(log n) | O(1) |
-| Intro to Tutorial Challenges | O(log n) | O(1) |
-| Minimum Time Required | O(n × log(min(machine) × goal)) | O(1) |
-
-### Complexity Notes
-
-- `n` = number of array elements or machines.
-- `low` = starting search boundary.
-- `high` = ending search boundary.
-- `mid` = middle index or middle possible answer.
-- `//` = integer division.
-- O(log n) means the search space is reduced by half repeatedly.
-- `mid // machine` calculates how many items one machine can produce in the given time.
-- Binary Search on Answer searches for the minimum feasible result.
-
-## 6. Mock Interview Questions & Answers
-
-1. **What is Binary Search?**  
-   Binary Search is an efficient searching technique that repeatedly divides a sorted search range in half.
-
-2. **Why does Binary Search require a sorted array?**  
-   Sorting helps us decide whether to search the left half or the right half.
-
-3. **What is the time complexity of Binary Search?**  
-   O(log n), because the search space is divided in half at every step.
-
-4. **What is the purpose of `low`, `high`, and `mid`?**  
-   `low` is the starting boundary, `high` is the ending boundary, and `mid` is the middle position.
-
-5. **Why do we use `mid + 1` and `mid - 1`?**  
-   To eliminate the already-checked middle element and continue searching in the correct half.
-
-6. **What is the difference between Binary Search and Search Insert Position?**  
-   Binary Search returns `-1` when the target is missing, whereas Search Insert Position returns the index where the target should be inserted.
-
-7. **What is Binary Search on Answer?**  
-   It searches for the minimum or maximum feasible answer instead of searching for an array element.
-
-8. **How does Minimum Time Required work?**  
-   It checks how many items all machines can produce in a given time and adjusts the search range until it finds the minimum sufficient time.
-
-## 7. Key Learning
-
-Learned how to implement Binary Search, find elements and insertion positions in sorted arrays, and apply Binary Search on Answer to solve minimum-time problems. Improved understanding of search boundaries, middle-index calculation, decision conditions, and time and space complexity.
-
-**Day 13 Completed! ✅**
+**What I learned / what to revise:** Revise the middle-index formula, boundary updates, the difference between returning `-1` and `low`, and the feasibility check used in Binary Search on Answer.
