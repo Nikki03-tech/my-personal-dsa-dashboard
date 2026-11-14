@@ -7,11 +7,11 @@
 ### 1. Concepts Learned
 
 - Binary Search finds a target efficiently in a sorted array by repeatedly dividing the search range in half.
-- \`low\` is the starting index, \`high\` is the ending index, and \`mid\` is the middle index.
-- Calculate the middle using \`mid = (low + high) // 2\`.
+- `low` is the starting index, `high` is the ending index, and `mid` is the middle index.
+- Calculate the middle using `mid = (low + high) // 2`.
 - If the middle value is smaller than the target, search the right half.
 - If the middle value is greater than the target, search the left half.
-- Search Insert Position uses the final value of \`low\` as the insertion index when the target is missing.
+- Search Insert Position uses the final value of `low` as the insertion index when the target is missing.
 - Binary Search on Answer searches a range of possible answers, such as the minimum number of days needed to produce a goal.
 - Binary Search takes O(log n) time because the search range is halved each time.
 
@@ -19,7 +19,7 @@
 
 **Binary Search — LeetCode**
 
-\`\`\`python
+```python
 class Solution:
     def search(self, nums, target):
         low = 0
@@ -36,11 +36,11 @@ class Solution:
                 high = mid - 1
 
         return -1
-\`\`\`
+```
 
 **Search Insert Position — LeetCode**
 
-\`\`\`python
+```python
 class Solution:
     def searchInsert(self, nums, target):
         low = 0
@@ -57,11 +57,11 @@ class Solution:
                 high = mid - 1
 
         return low
-\`\`\`
+```
 
 **Intro to Tutorial Challenges — HackerRank**
 
-\`\`\`python
+```python
 def introTutorial(V, arr):
     low = 0
     high = len(arr) - 1
@@ -77,11 +77,11 @@ def introTutorial(V, arr):
             high = mid - 1
 
     return -1
-\`\`\`
+```
 
 **Minimum Time Required — HackerRank**
 
-\`\`\`python
+```python
 def minTime(machines, goal):
     low = 1
     high = min(machines) * goal
@@ -101,16 +101,16 @@ def minTime(machines, goal):
             low = mid + 1
 
     return low
-\`\`\`
+```
 
 ### 3. Mistakes Corrected
 
-- Corrected the middle-index calculation: when \`low = 0\` and \`high = 5\`, \`mid = 2\), not 3.
+- Corrected the middle-index calculation: when `low = 0` and `high = 5`, `mid = 2\), not 3.
 - Learned that Binary Search needs sorted input so we can safely discard half of the range.
-- Understood why \`low = mid + 1\` moves right and \`high = mid - 1\` moves left.
-- Learned the difference between returning \`-1\` when a target is missing and returning \`low\` as an insertion position.
-- Understood why Minimum Time Required keeps the current midpoint as \`high\` when enough items are produced: a smaller time may also work.
-- Learned that \`mid // machine\` calculates the number of items a machine can produce in the chosen time.
+- Understood why `low = mid + 1` moves right and `high = mid - 1` moves left.
+- Learned the difference between returning `-1` when a target is missing and returning `low` as an insertion position.
+- Understood why Minimum Time Required keeps the current midpoint as `high` when enough items are produced: a smaller time may also work.
+- Learned that `mid // machine` calculates the number of items a machine can produce in the chosen time.
 
 ### 4. Coding Problems Completed
 
@@ -139,10 +139,10 @@ def minTime(machines, goal):
 
 **Remember:**
 
-- \`n\` = number of array elements or machines.
-- \`//\` performs integer division.
-- \`O(log n)\` means the search range is repeatedly divided in half.
-- \`mid // machine\` gives the number of items one machine produces in the given time.
+- `n` = number of array elements or machines.
+- `//` performs integer division.
+- `O(log n)` means the search range is repeatedly divided in half.
+- `mid // machine` gives the number of items one machine produces in the given time.
 - In Minimum Time Required, the outer binary search checks possible times and the loop over machines counts production.
 
 ### 6. Mock Interview Questions & Answers
@@ -153,10 +153,10 @@ def minTime(machines, goal):
 2. **Why must the array be sorted?**  
    Sorting lets us decide which half can be discarded after checking the middle element.
 
-3. **What are \`low\`, \`high\`, and \`mid\`?**  
-   \`low\` is the starting boundary, \`high\` is the ending boundary, and \`mid\` is the middle index.
+3. **What are `low`, `high`, and `mid`?**  
+   `low` is the starting boundary, `high` is the ending boundary, and `mid` is the middle index.
 
-4. **Why do we use \`mid + 1\` and \`mid - 1\`?**  
+4. **Why do we use `mid + 1` and `mid - 1`?**  
    We have already checked the middle element, so we move past it when searching the remaining half.
 
 5. **What is the time complexity of Binary Search?**  
