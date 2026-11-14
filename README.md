@@ -67,7 +67,7 @@ For a difficult topic, first understand Q1 on each platform, then attempt Q2. Re
 
 Python fundamentals, arrays, matrices, hash sets/maps, prefix sums, subarray sums, strings, two pointers, sliding windows, intervals, binary search and search-on-answer, sorting, stacks, queues, monotonic stacks, linked lists, fast/slow pointers, recursion, backtracking, trees, BSTs, BFS, DFS, heaps, graphs, topological sorting, Dijkstra, Union-Find, tries, greedy algorithms, dynamic programming, bit manipulation and mathematics.
 
-## Study notes — Days 7–11
+## Study notes — Days 7–13
 
 Clear, beginner-friendly revision notes with explanations, Python patterns, examples, problem links, common mistakes, and complexity:
 
@@ -77,6 +77,7 @@ Clear, beginner-friendly revision notes with explanations, Python patterns, exam
 - [Day 10 — Sliding Window](notes/day-10.md)
 - [Day 11 — Advanced Hashing and Grouping](notes/day-11.md)
 - [Day 12 — Intervals and Greedy Algorithms](notes/day-12.md)
+- [Day 13 — Binary Search Fundamentals](notes/day-13.md)
 
 ## Progress logs
 
