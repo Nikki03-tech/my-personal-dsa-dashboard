@@ -88,7 +88,7 @@ function render(){
     '<p class="links"><b>HackerRank Q1:</b> '+safeLink(t.hr,t.hrTitle)+'</p>' +
     '<p class="links"><b>HackerRank Q2:</b> '+safeLink(t.hr2,t.hr2Title)+'</p>' +
     '<div class="actions"><button class="btn soft chat">Open DSA chat</button><button class="btn '+(done?"outline":"green")+' mark">'+(done?"Undo":"Complete")+'</button></div>' +
-    '<div class="doneLine">'+(done?"✓ Completed":"")+'</div>';
+    '<div class="doneLine">'+(done?"✓ Completed":"")+'</div>' + ((i===17||i===18)?'<div class="doneLine">✓ 4/4 submissions accepted · <a href="https://github.com/Nikki03-tech/my-personal-dsa-dashboard/blob/main/notes/day-'+(i+1)+'.md" target="_blank" rel="noopener noreferrer">Study notes</a></div>':'');
   d.querySelector(".chat").onclick=openChat;
   d.querySelector(".mark").onclick=()=>mark(i);
   wrap.appendChild(d);
