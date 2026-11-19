@@ -92,3 +92,11 @@ Use the matching file in [`progress/`](progress/) to record your attempts, hints
 ## License
 
 MIT. See [`LICENSE`](LICENSE).
+
+
+## Confirmed progress — Days 18–19
+
+- [Day 18 — Recursion and Advanced Backtracking](notes/day-18.md) — 4/4 accepted
+- [Day 19 — Trees: DFS, Recursion and BSTs](notes/day-19.md) — 4/4 accepted
+
+Submission status was confirmed on November 19, 2026. Individual problem links and attempt records remain in [Day 18 progress](progress/day-18.md) and [Day 19 progress](progress/day-19.md).
