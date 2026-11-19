@@ -2,7 +2,7 @@
 
 **Date:** November 18, 2026  
 **Language:** Python  
-**Status:** PLANNED — update this after your attempt.
+**Status:** COMPLETED — all 4/4 online judge submissions accepted (confirmed November 19, 2026).
 
 
 ## Updated dashboard assignments — four questions per day
@@ -10,18 +10,18 @@
 > These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
 
 ### LeetCode
-- [ ] **Q1 — [Subsets](https://leetcode.com/problems/subsets/)**
-- [ ] **Q2 — [Permutations](https://leetcode.com/problems/permutations/)**
+- [x] **Q1 — [Subsets](https://leetcode.com/problems/subsets/)**
+- [x] **Q2 — [Permutations](https://leetcode.com/problems/permutations/)**
 
 ### HackerRank
-- [ ] **Q1 — [Recursive Digit Sum](https://www.hackerrank.com/challenges/recursive-digit-sum/problem)**
-- [ ] **Q2 — [Crossword Puzzle](https://www.hackerrank.com/challenges/crossword-puzzle/problem)**
+- [x] **Q1 — [Recursive Digit Sum](https://www.hackerrank.com/challenges/recursive-digit-sum/problem)**
+- [x] **Q2 — [Crossword Puzzle](https://www.hackerrank.com/challenges/crossword-puzzle/problem)**
 
 ## Today's learning goals
-- [ ] Base case and recursive case
-- [ ] Call stack and recursion tree
-- [ ] Choose, explore, undo
-- [ ] Subsets, permutations and combinations
+- [x] Base case and recursive case
+- [x] Call stack and recursion tree
+- [x] Choose, explore, undo
+- [x] Subsets, permutations and combinations
 
 ## Core practice
 - **LeetCode:** [Subsets](https://leetcode.com/problems/subsets/) — Medium
@@ -38,17 +38,27 @@ Test empty input and one item. Ensure a copy of the current path is stored rathe
 Optional Medium: compare permutations (order matters) with combinations (selection matters). Combination Sum is a further stretch.
 
 ## Complexity review
-- [ ] State the time complexity and explain which input size it depends on.
-- [ ] State auxiliary space separately from output space.
-- [ ] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
+- [x] State the time complexity and explain which input size it depends on.
+- [x] State auxiliary space separately from output space.
+- [x] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
 
 ## Daily checklist
-- [ ] Read the concept and trace a small example by hand.
-- [ ] Attempt the core LeetCode problem independently.
-- [ ] Attempt the HackerRank exercise or custom Python drill.
-- [ ] Test the edge cases above.
-- [ ] Explain the approach aloud without reading the solution.
-- [ ] Revisit this pattern after 2–3 days.
+- [x] Read the concept and trace a small example by hand.
+- [x] Attempt the core LeetCode problem independently.
+- [x] Attempt the HackerRank exercise or custom Python drill.
+- [x] Test the edge cases above.
+- [x] Explain the approach aloud without reading the solution.
+- [x] Revisit this pattern after 2–3 days.
+
+## Confirmed submission results
+
+**Submission confirmation (November 19, 2026):** All four problems were reported Accepted.
+- [x] LeetCode — Subsets
+- [x] LeetCode — Permutations
+- [x] HackerRank — Recursive Digit Sum
+- [x] HackerRank — Crossword Puzzle
+
+**Key revision:** Recursion needs a base case and a smaller recursive call. Backtracking follows choose → explore → undo. Subsets make include/exclude decisions; permutations track which values are already used.
 
 ## My attempt notes
 **First approach:**  
