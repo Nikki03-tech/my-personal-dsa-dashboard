@@ -22,3 +22,11 @@ Use these notes for quick revision. Days 1–6 already have detailed concept exp
 Each day's notes include simple explanations, Python patterns, examples, problem links, complexity, common mistakes, and interview revision questions where relevant.
 
 **Progress rule:** A solution being explained or reviewed does not mean the online judge accepted it. Check the matching progress log for confirmed submission status.
+
+
+## Days 18–19 — Dedicated study notes
+
+- [Day 18 — Recursion and Advanced Backtracking](day-18.md)
+- [Day 19 — Trees: DFS, Recursion and BSTs](day-19.md)
+
+Both days have four confirmed accepted submissions. Detailed attempt records remain in the matching files under [progress/](../progress/).
