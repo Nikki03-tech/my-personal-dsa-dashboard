@@ -7,7 +7,7 @@
 
 ## Updated dashboard assignments — four questions per day
 
-> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+> These are the four assigned problems shown on the current dashboard. All four submissions are now confirmed accepted; the checkboxes below record that status.
 
 ### LeetCode
 - [x] **Q1 — [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)**
