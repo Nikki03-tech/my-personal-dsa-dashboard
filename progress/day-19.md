@@ -2,7 +2,7 @@
 
 **Date:** November 19, 2026  
 **Language:** Python  
-**Status:** PLANNED — update this after your attempt.
+**Status:** COMPLETED — all 4/4 online judge submissions accepted (confirmed November 19, 2026).
 
 
 ## Updated dashboard assignments — four questions per day
@@ -10,18 +10,18 @@
 > These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
 
 ### LeetCode
-- [ ] **Q1 — [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)**
-- [ ] **Q2 — [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)**
+- [x] **Q1 — [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)**
+- [x] **Q2 — [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)**
 
 ### HackerRank
-- [ ] **Q1 — [Tree: Height of a Binary Tree](https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem)**
-- [ ] **Q2 — [Tree: Preorder Traversal](https://www.hackerrank.com/challenges/tree-preorder-traversal/problem)**
+- [x] **Q1 — [Tree: Height of a Binary Tree](https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem)**
+- [x] **Q2 — [Tree: Preorder Traversal](https://www.hackerrank.com/challenges/tree-preorder-traversal/problem)**
 
 ## Today's learning goals
-- [ ] Tree nodes, root, leaves and height
-- [ ] DFS: preorder, inorder and postorder
-- [ ] BST ordering property
-- [ ] Recursive base cases
+- [x] Tree nodes, root, leaves and height
+- [x] DFS: preorder, inorder and postorder
+- [x] BST ordering property
+- [x] Recursive base cases
 
 ## Core practice
 - **LeetCode:** [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) — Easy
@@ -38,17 +38,27 @@ Test an empty tree, a single node, a skewed tree and a balanced tree.
 Optional Medium: use lower and upper bounds rather than checking only parent-child pairs.
 
 ## Complexity review
-- [ ] State the time complexity and explain which input size it depends on.
-- [ ] State auxiliary space separately from output space.
-- [ ] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
+- [x] State the time complexity and explain which input size it depends on.
+- [x] State auxiliary space separately from output space.
+- [x] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
 
 ## Daily checklist
-- [ ] Read the concept and trace a small example by hand.
-- [ ] Attempt the core LeetCode problem independently.
-- [ ] Attempt the HackerRank exercise or custom Python drill.
-- [ ] Test the edge cases above.
-- [ ] Explain the approach aloud without reading the solution.
-- [ ] Revisit this pattern after 2–3 days.
+- [x] Read the concept and trace a small example by hand.
+- [x] Attempt the core LeetCode problem independently.
+- [x] Attempt the HackerRank exercise or custom Python drill.
+- [x] Test the edge cases above.
+- [x] Explain the approach aloud without reading the solution.
+- [x] Revisit this pattern after 2–3 days.
+
+## Confirmed submission results
+
+**Submission confirmation (November 19, 2026):** All four problems were reported Accepted.
+- [x] LeetCode — Maximum Depth of Binary Tree
+- [x] LeetCode — Validate Binary Search Tree
+- [x] HackerRank — Tree Height
+- [x] HackerRank — Preorder Traversal
+
+**Key revision:** DFS explores a branch recursively. Maximum depth counts nodes; HackerRank tree height counts edges. BST validation carries lower and upper bounds through the whole subtree. Preorder is root → left → right.
 
 ## My attempt notes
 **First approach:**  
