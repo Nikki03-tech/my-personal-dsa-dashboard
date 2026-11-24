@@ -1,6 +1,6 @@
-# DSA Study Notes — Days 1–11
+# DSA Study Notes — selected days through Day 25
 
-Use these notes for quick revision. Days 1–6 already have detailed concept explanations and worked examples in their original progress logs. Days 7–11 have dedicated beginner-friendly study-note files.
+Use these notes for quick revision. Days 1–6 already have detailed concept explanations and worked examples in their original progress logs. Dedicated beginner-friendly study-note files are available for Days 7–13, Days 18–19, and Day 25.
 
 ## Days 1–6 — Original detailed progress notes
 
@@ -30,3 +30,9 @@ Each day's notes include simple explanations, Python patterns, examples, problem
 - [Day 19 — Trees: DFS, Recursion and BSTs](day-19.md)
 
 Both days have four confirmed accepted submissions. Detailed attempt records remain in the matching files under [progress/](../progress/).
+
+## Day 25 — Dedicated study notes
+
+- [Day 25 — Union-Find / Disjoint Set Union](day-25.md)
+
+Day 25 contains the DSU pattern, Python implementations for all four assigned problems, complexity analysis, common mistakes, and interview revision questions. Its online-judge submission statuses remain pending confirmation in [Day 25 progress](../progress/day-25.md).
