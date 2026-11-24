@@ -2,8 +2,9 @@
 
 **Date:** November 25, 2026  
 **Language:** Python  
-**Status:** PLANNED — update this after your attempt.
+**Status:** STUDY NOTES PREPARED — online-judge submissions pending confirmation.
 
+**Study notes:** [Day 25 — Union-Find / Disjoint Set Union](../notes/day-25.md)
 
 ## Updated dashboard assignments — four questions per day
 
@@ -16,6 +17,10 @@
 ### HackerRank
 - [ ] **Q1 — [Components in a Graph](https://www.hackerrank.com/challenges/components-in-graph/problem)**
 - [ ] **Q2 — [Journey to the Moon](https://www.hackerrank.com/challenges/journey-to-the-moon/problem)**
+
+## Submission status
+
+The four Day 25 problems have been assigned and their reference solutions and study notes are available. No Day 25 online-judge acceptance has been confirmed yet; keep all four problem checkboxes unchecked until HackerRank or LeetCode reports Accepted.
 
 ## Today's learning goals
 - [ ] parent array and find()
