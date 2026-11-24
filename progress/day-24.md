@@ -2,7 +2,7 @@
 
 **Date:** November 24, 2026  
 **Language:** Python  
-**Status:** PLANNED — update this after your attempt.
+**Status:** IN PROGRESS — 1/4 online-judge submissions confirmed Accepted (November 24, 2026).
 
 
 ## Updated dashboard assignments — four questions per day
@@ -14,8 +14,12 @@
 - [ ] **Q2 — [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)**
 
 ### HackerRank
-- [ ] **Q1 — [Dijkstra: Shortest Reach 2](https://www.hackerrank.com/challenges/dijkstra-shortest-reach-2/problem)**
+- [x] **Q1 — [Dijkstra: Shortest Reach 2](https://www.hackerrank.com/challenges/dijkstrashortreach/problem)** — Accepted (November 24, 2026)
 - [ ] **Q2 — [Floyd: City of Blinding Lights](https://www.hackerrank.com/challenges/floyd-city-of-blinding-lights/problem)**
+
+## Confirmed submission result
+
+**November 24, 2026:** HackerRank — Dijkstra: Shortest Reach 2 passed all test cases, including the previously failing large test. The memory-efficient input-reading version was accepted. The other three Day 24 submissions remain unconfirmed.
 
 ## Today's learning goals
 - [ ] Weighted directed graph
@@ -25,7 +29,7 @@
 
 ## Core practice
 - **LeetCode:** [Network Delay Time](https://leetcode.com/problems/network-delay-time/) — Medium
-- **HackerRank / practice:** [Dijkstra: Shortest Reach 2](https://www.hackerrank.com/challenges/dijkstra-shortest-reach-2/problem)
+- **HackerRank / practice:** [Dijkstra: Shortest Reach 2](https://www.hackerrank.com/challenges/dijkstrashortreach/problem)
 
 ## How to approach it
 Initialize the source distance to zero. Pop the smallest tentative distance, relax outgoing edges, and push improved distances into the heap.
