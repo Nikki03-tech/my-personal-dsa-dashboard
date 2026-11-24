@@ -55,7 +55,7 @@ For a difficult topic, first understand Q1 on each platform, then attempt Q2. Re
 | 21 | Heaps and priority queues | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Find the Running Median](https://www.hackerrank.com/challenges/find-the-running-median/problem) | [Jesse and Cookies](https://www.hackerrank.com/challenges/jesse-and-cookies/problem) |
 | 22 | Graphs: BFS, DFS and connected components | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Clone Graph](https://leetcode.com/problems/clone-graph/) | [BFS: Shortest Reach](https://www.hackerrank.com/challenges/bfsshortreach/problem) | [Connected Cell in a Grid](https://www.hackerrank.com/challenges/connected-cell-in-a-grid/problem) |
 | 23 | Topological sorting and dependency graphs | [Course Schedule](https://leetcode.com/problems/course-schedule/) | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | [Even Tree](https://www.hackerrank.com/challenges/even-tree/problem) | [Basic Quiz on Algorithms #1 (includes a topological-sort question)](https://www.hackerrank.com/challenges/basic-algo-quiz-1/problem) |
-| 24 | Shortest paths: Dijkstra's algorithm | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/) | [Dijkstra: Shortest Reach 2](https://www.hackerrank.com/challenges/dijkstra-shortest-reach-2/problem) | [Floyd: City of Blinding Lights](https://www.hackerrank.com/challenges/floyd-city-of-blinding-lights/problem) |
+| 24 | Shortest paths: Dijkstra's algorithm | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/) | [Dijkstra: Shortest Reach 2](https://www.hackerrank.com/challenges/dijkstrashortreach/problem) | [Floyd: City of Blinding Lights](https://www.hackerrank.com/challenges/floyd-city-of-blinding-lights/problem) |
 | 25 | Union-Find / Disjoint Set Union | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | [Components in a Graph](https://www.hackerrank.com/challenges/components-in-graph/problem) | [Journey to the Moon](https://www.hackerrank.com/challenges/journey-to-the-moon/problem) |
 | 26 | Tries and prefix searching | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [Contacts](https://www.hackerrank.com/challenges/contacts/problem) | [No Prefix Set](https://www.hackerrank.com/challenges/three-month-preparation-kit-no-prefix-set/problem) |
 | 27 | Greedy algorithms | [Jump Game](https://leetcode.com/problems/jump-game/) | [Gas Station](https://leetcode.com/problems/gas-station/) | [Mark and Toys](https://www.hackerrank.com/challenges/mark-and-toys/problem) | [Greedy Florist](https://www.hackerrank.com/challenges/greedy-florist/problem) |
@@ -67,7 +67,7 @@ For a difficult topic, first understand Q1 on each platform, then attempt Q2. Re
 
 Python fundamentals, arrays, matrices, hash sets/maps, prefix sums, subarray sums, strings, two pointers, sliding windows, intervals, binary search and search-on-answer, sorting, stacks, queues, monotonic stacks, linked lists, fast/slow pointers, recursion, backtracking, trees, BSTs, BFS, DFS, heaps, graphs, topological sorting, Dijkstra, Union-Find, tries, greedy algorithms, dynamic programming, bit manipulation and mathematics.
 
-## Study notes — Days 7–13
+## Study notes — Days 7–13, 18–19 and 25
 
 Clear, beginner-friendly revision notes with explanations, Python patterns, examples, problem links, common mistakes, and complexity:
 
@@ -78,6 +78,9 @@ Clear, beginner-friendly revision notes with explanations, Python patterns, exam
 - [Day 11 — Advanced Hashing and Grouping](notes/day-11.md)
 - [Day 12 — Intervals and Greedy Algorithms](notes/day-12.md)
 - [Day 13 — Binary Search Fundamentals](notes/day-13.md)
+- [Day 18 — Recursion and Advanced Backtracking](notes/day-18.md)
+- [Day 19 — Trees: DFS, Recursion and BSTs](notes/day-19.md)
+- [Day 25 — Union-Find / Disjoint Set Union](notes/day-25.md)
 
 ## Progress logs
 
