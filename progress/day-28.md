@@ -2,66 +2,60 @@
 
 **Date:** November 28, 2026  
 **Language:** Python  
-**Status:** PLANNED — update this after your attempt.
+**Status:** COMPLETED — all 4/4 online-judge submissions reported Accepted on November 25, 2026.
 
-
-## Updated dashboard assignments — four questions per day
-
-> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+## Confirmed dashboard assignments — 4/4 Accepted
 
 ### LeetCode
-- [ ] **Q1 — [House Robber](https://leetcode.com/problems/house-robber/)**
-- [ ] **Q2 — [Coin Change](https://leetcode.com/problems/coin-change/)**
+- [x] **Q1 — [House Robber](https://leetcode.com/problems/house-robber/)** — Accepted
+- [x] **Q2 — [Coin Change](https://leetcode.com/problems/coin-change/)** — Accepted
 
 ### HackerRank
-- [ ] **Q1 — [Max Array Sum](https://www.hackerrank.com/challenges/maxsubarray/problem)**
-- [ ] **Q2 — [The Coin Change Problem](https://www.hackerrank.com/challenges/the-coin-change-problem/problem)**
+- [x] **Q1 — [Max Array Sum / The Maximum Subarray](https://www.hackerrank.com/challenges/maxsubarray/problem)** — Accepted
+- [x] **Q2 — [The Coin Change Problem](https://www.hackerrank.com/challenges/coin-change/problem)** — Accepted
 
-## Today's learning goals
-- [ ] State definition and recurrence
-- [ ] Base cases
-- [ ] Top-down memoization
-- [ ] Bottom-up tabulation
-- [ ] 2D DP exposure; knapsack and LIS patterns
+**Submission confirmation:** The user reported that all four questions for Day 28 were run, submitted, and all test cases passed on November 25, 2026. This day was completed ahead of its scheduled calendar date.
 
-## Core practice
-- **LeetCode:** [House Robber](https://leetcode.com/problems/house-robber/) — Medium
-- **HackerRank / practice:** [Max Array Sum](https://www.hackerrank.com/challenges/maxsubarray/problem)
+**Digital study notes:** [Open Day 28 notes](../notes/day-28.md)
 
-## How to approach it
-For House Robber, decide at each index whether to take the current value plus the best non-adjacent result or skip it and keep the previous best.
+## 1. Concepts Learned
 
-## Edge cases to test
-Test zero houses, one house, two houses, all zeros, and negative values if the problem permits them.
+- [x] DP states and recurrence
+- [x] Base cases
+- [x] Memoization and tabulation
+- [x] Minimum-coin DP versus combination-counting DP
+- [x] Kadane's algorithm and non-contiguous maximum sum
 
-## Optional stretch
-[Unique Paths (2D DP)](https://leetcode.com/problems/unique-paths/)
-Optional Medium: build a grid DP table. Also read the state/transition idea for 0/1 Knapsack and Longest Increasing Subsequence; do not try to master all three today.
+## 2. Important Logic
 
-## Complexity review
-- [ ] State the time complexity and explain which input size it depends on.
-- [ ] State auxiliary space separately from output space.
-- [ ] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
+House Robber uses a take-or-skip recurrence. LeetCode Coin Change minimizes coin count. The HackerRank maxsubarray challenge returns both contiguous and non-contiguous maximum sums. HackerRank Coin Change counts combinations with the coin loop outside.
 
-## Daily checklist
-- [ ] Read the concept and trace a small example by hand.
-- [ ] Attempt the core LeetCode problem independently.
-- [ ] Attempt the HackerRank exercise or custom Python drill.
-- [ ] Test the edge cases above.
-- [ ] Explain the approach aloud without reading the solution.
-- [ ] Revisit this pattern after 2–3 days.
+## 3. Edge Cases Reviewed
 
-## My attempt notes
-**First approach:**  
+Test all-negative arrays, unreachable coin amounts, amount zero, small arrays, and target amounts below the smallest coin.
 
-**Where I got stuck:**  
+## 4. Coding Problems Completed
 
-**Hints used:**  
+- [x] LeetCode Q1 — House Robber
+- [x] LeetCode Q2 — Coin Change
+- [x] HackerRank Q1 — Max Array Sum / The Maximum Subarray
+- [x] HackerRank Q2 — The Coin Change Problem
 
-**Key insight / final approach:**  
+## 5. Time and Space Complexity
 
-**Time complexity:**  
+House Robber O(n)/O(1). Both coin-change tasks O(A × C) time and O(A) space. HackerRank Maximum Subarray O(n) time and O(1) auxiliary space.
 
-**Auxiliary space complexity:**  
+## 6. Mock Interview Questions and Answers
 
-**What I learned / what to revise:**  
+1. **What is a DP state?** The stored answer to a smaller subproblem.
+2. **What is a recurrence?** A relationship between the current state and earlier states.
+3. **Memoization versus tabulation?** Top-down cached recursion versus bottom-up table filling.
+4. **How do the Coin Change tasks differ?** LeetCode minimizes coin count; HackerRank counts combinations.
+5. **What is Kadane's algorithm?** A linear method for finding the maximum contiguous subarray sum.
+6. **What does HackerRank maxsubarray return?** Both contiguous and non-contiguous maximum sums.
+
+## 7. Key Learning
+
+Dynamic Programming defines states and recurrences to reuse smaller answers. Similar-looking tasks may have different goals: minimize a coin count, count combinations, or maximize contiguous and non-contiguous sums.
+
+**Day 28 completed — 4/4 Accepted.**
