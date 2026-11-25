@@ -59,7 +59,7 @@ For a difficult topic, first understand Q1 on each platform, then attempt Q2. Re
 | 25 | Union-Find / Disjoint Set Union | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | [Components in a Graph](https://www.hackerrank.com/challenges/components-in-graph/problem) | [Journey to the Moon](https://www.hackerrank.com/challenges/journey-to-the-moon/problem) |
 | 26 | Tries and prefix searching | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [Contacts](https://www.hackerrank.com/challenges/contacts/problem) | [No Prefix Set](https://www.hackerrank.com/challenges/three-month-preparation-kit-no-prefix-set/problem) |
 | 27 | Greedy algorithms | [Jump Game](https://leetcode.com/problems/jump-game/) | [Gas Station](https://leetcode.com/problems/gas-station/) | [Mark and Toys](https://www.hackerrank.com/challenges/mark-and-toys/problem) | [Greedy Florist](https://www.hackerrank.com/challenges/greedy-florist/problem) |
-| 28 | Dynamic programming: 1D and 2D foundations | [House Robber](https://leetcode.com/problems/house-robber/) | [Coin Change](https://leetcode.com/problems/coin-change/) | [Max Array Sum](https://www.hackerrank.com/challenges/maxsubarray/problem) | [The Coin Change Problem](https://www.hackerrank.com/challenges/the-coin-change-problem/problem) |
+| 28 | Dynamic programming: 1D and 2D foundations | [House Robber](https://leetcode.com/problems/house-robber/) | [Coin Change](https://leetcode.com/problems/coin-change/) | [Max Array Sum / The Maximum Subarray](https://www.hackerrank.com/challenges/maxsubarray/problem) | [The Coin Change Problem](https://www.hackerrank.com/challenges/the-coin-change-problem/problem) |
 | 29 | Bit manipulation and mathematical algorithms | [Single Number](https://leetcode.com/problems/single-number/) | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [Flipping Bits](https://www.hackerrank.com/challenges/flipping-bits/problem) | [Sum vs XOR](https://www.hackerrank.com/challenges/sum-vs-xor/problem) |
 | 30 | Final mixed mock and pattern review | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [New Year Chaos](https://www.hackerrank.com/challenges/new-year-chaos/problem) | [Minimum Swaps 2](https://www.hackerrank.com/challenges/minimum-swaps-2/problem) |
 
@@ -67,7 +67,7 @@ For a difficult topic, first understand Q1 on each platform, then attempt Q2. Re
 
 Python fundamentals, arrays, matrices, hash sets/maps, prefix sums, subarray sums, strings, two pointers, sliding windows, intervals, binary search and search-on-answer, sorting, stacks, queues, monotonic stacks, linked lists, fast/slow pointers, recursion, backtracking, trees, BSTs, BFS, DFS, heaps, graphs, topological sorting, Dijkstra, Union-Find, tries, greedy algorithms, dynamic programming, bit manipulation and mathematics.
 
-## Study notes — Days 7–13, 18–19 and 25
+## Study notes — Days 7–13, 18–19 and 25–30
 
 Clear, beginner-friendly revision notes with explanations, Python patterns, examples, problem links, common mistakes, and complexity:
 
@@ -81,6 +81,11 @@ Clear, beginner-friendly revision notes with explanations, Python patterns, exam
 - [Day 18 — Recursion and Advanced Backtracking](notes/day-18.md)
 - [Day 19 — Trees: DFS, Recursion and BSTs](notes/day-19.md)
 - [Day 25 — Union-Find / Disjoint Set Union](notes/day-25.md)
+- [Day 26 — Tries and Prefix Searching](notes/day-26.md)
+- [Day 27 — Greedy Algorithms](notes/day-27.md)
+- [Day 28 — Dynamic Programming](notes/day-28.md)
+- [Day 29 — Bit Manipulation and Mathematical Algorithms](notes/day-29.md)
+- [Day 30 — Final Mixed Mock and Pattern Review](notes/day-30.md)
 
 ## Progress logs
 
@@ -96,6 +101,16 @@ Use the matching file in [`progress/`](progress/) to record your attempts, hints
 
 MIT. See [`LICENSE`](LICENSE).
 
+
+## Confirmed progress — Days 26–30
+
+The user reported that all 20 assigned LeetCode and HackerRank submissions for Days 26–30 were submitted and all test cases passed on November 25, 2026 (4/4 accepted per day).
+
+- [Day 26 — Tries and Prefix Searching](notes/day-26.md) — 4/4 accepted · [progress log](progress/day-26.md)
+- [Day 27 — Greedy Algorithms](notes/day-27.md) — 4/4 accepted · [progress log](progress/day-27.md)
+- [Day 28 — Dynamic Programming](notes/day-28.md) — 4/4 accepted · [progress log](progress/day-28.md)
+- [Day 29 — Bit Manipulation and Mathematical Algorithms](notes/day-29.md) — 4/4 accepted · [progress log](progress/day-29.md)
+- [Day 30 — Final Mixed Mock and Pattern Review](notes/day-30.md) — 4/4 accepted · [progress log](progress/day-30.md)
 
 ## Confirmed progress — Days 18–19
 
