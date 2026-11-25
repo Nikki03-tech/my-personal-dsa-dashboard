@@ -1,6 +1,6 @@
-# DSA Study Notes — selected days through Day 25
+# DSA Study Notes — selected days through Day 30
 
-Use these notes for quick revision. Days 1–6 already have detailed concept explanations and worked examples in their original progress logs. Dedicated beginner-friendly study-note files are available for Days 7–13, Days 18–19, and Day 25.
+Use these notes for quick revision. Days 1–6 already have detailed concept explanations and worked examples in their original progress logs. Dedicated beginner-friendly study-note files are available for Days 7–13, Days 18–19, and Days 25–30.
 
 ## Days 1–6 — Original detailed progress notes
 
@@ -36,3 +36,14 @@ Both days have four confirmed accepted submissions. Detailed attempt records rem
 - [Day 25 — Union-Find / Disjoint Set Union](day-25.md)
 
 Day 25 contains the DSU pattern, Python implementations for all four assigned problems, complexity analysis, common mistakes, and interview revision questions. Its online-judge submission statuses remain pending confirmation in [Day 25 progress](../progress/day-25.md).
+
+
+## Days 26–30 — Dedicated study notes and confirmed progress
+
+- [Day 26 — Tries and Prefix Searching](day-26.md) — 4/4 accepted
+- [Day 27 — Greedy Algorithms](day-27.md) — 4/4 accepted
+- [Day 28 — Dynamic Programming](day-28.md) — 4/4 accepted
+- [Day 29 — Bit Manipulation and Mathematical Algorithms](day-29.md) — 4/4 accepted
+- [Day 30 — Final Mixed Mock and Pattern Review](day-30.md) — 4/4 accepted
+
+All five days were reported completed on November 25, 2026. Detailed submission records are in the matching files under [progress/](../progress/).
