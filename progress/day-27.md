@@ -2,65 +2,58 @@
 
 **Date:** November 27, 2026  
 **Language:** Python  
-**Status:** PLANNED — update this after your attempt.
+**Status:** COMPLETED — all 4/4 online-judge submissions reported Accepted on November 25, 2026.
 
-
-## Updated dashboard assignments — four questions per day
-
-> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+## Confirmed dashboard assignments — 4/4 Accepted
 
 ### LeetCode
-- [ ] **Q1 — [Jump Game](https://leetcode.com/problems/jump-game/)**
-- [ ] **Q2 — [Gas Station](https://leetcode.com/problems/gas-station/)**
+- [x] **Q1 — [Jump Game](https://leetcode.com/problems/jump-game/)** — Accepted
+- [x] **Q2 — [Gas Station](https://leetcode.com/problems/gas-station/)** — Accepted
 
 ### HackerRank
-- [ ] **Q1 — [Mark and Toys](https://www.hackerrank.com/challenges/mark-and-toys/problem)**
-- [ ] **Q2 — [Greedy Florist](https://www.hackerrank.com/challenges/greedy-florist/problem)**
+- [x] **Q1 — [Mark and Toys](https://www.hackerrank.com/challenges/mark-and-toys/problem)** — Accepted
+- [x] **Q2 — [Greedy Florist](https://www.hackerrank.com/challenges/greedy-florist/problem)** — Accepted
 
-## Today's learning goals
-- [ ] Greedy choice and feasibility
-- [ ] Track the farthest reachable index
-- [ ] Sort-first greedy patterns
-- [ ] Explain why a local choice works
+**Submission confirmation:** The user reported that all four questions for Day 27 were run, submitted, and all test cases passed on November 25, 2026. This day was completed ahead of its scheduled calendar date.
 
-## Core practice
-- **LeetCode:** [Jump Game](https://leetcode.com/problems/jump-game/) — Medium
-- **HackerRank / practice:** [Mark and Toys](https://www.hackerrank.com/challenges/mark-and-toys/problem)
+**Digital study notes:** [Open Day 27 notes](../notes/day-27.md)
 
-## How to approach it
-Track the farthest index reachable so far. If the current index exceeds it, the destination cannot be reached.
+## 1. Concepts Learned
 
-## Edge cases to test
-Test one item, zero at the beginning, a zero that blocks progress, and a jump that reaches the final index exactly.
+- [x] Greedy choice and feasibility
+- [x] Track the farthest reachable index
+- [x] Running totals and candidate resets
+- [x] Sort-first greedy optimization
 
-## Optional stretch
-Greedy vs dynamic programming
-Explain why greedy works for some problems but can fail when local choices block a better global solution.
+## 2. Important Logic
 
-## Complexity review
-- [ ] State the time complexity and explain which input size it depends on.
-- [ ] State auxiliary space separately from output space.
-- [ ] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
+Track the farthest reachable position for Jump Game. For Gas Station, track total fuel and the current candidate tank. Sort ascending for Mark and Toys and descending for Greedy Florist.
 
-## Daily checklist
-- [ ] Read the concept and trace a small example by hand.
-- [ ] Attempt the core LeetCode problem independently.
-- [ ] Attempt the HackerRank exercise or custom Python drill.
-- [ ] Test the edge cases above.
-- [ ] Explain the approach aloud without reading the solution.
-- [ ] Revisit this pattern after 2–3 days.
+## 3. Edge Cases Reviewed
 
-## My attempt notes
-**First approach:**  
+Test an unreachable jump, a zero blocking progress, no feasible gas station, exact budget use, one friend, and more flowers than friends.
 
-**Where I got stuck:**  
+## 4. Coding Problems Completed
 
-**Hints used:**  
+- [x] LeetCode Q1 — Jump Game
+- [x] LeetCode Q2 — Gas Station
+- [x] HackerRank Q1 — Mark and Toys
+- [x] HackerRank Q2 — Greedy Florist
 
-**Key insight / final approach:**  
+## 5. Time and Space Complexity
 
-**Time complexity:**  
+Jump Game and Gas Station O(n) time and O(1) auxiliary space. Mark and Toys and Greedy Florist O(n log n) time due to sorting.
 
-**Auxiliary space complexity:**  
+## 6. Mock Interview Questions and Answers
 
-**What I learned / what to revise:**  
+1. **What is a greedy algorithm?** It makes a locally optimal choice at each step.
+2. **What does farthest reach represent?** The maximum position reachable so far.
+3. **Why reset the Gas Station candidate?** A negative running tank rules out the failed candidate segment.
+4. **Why sort Mark and Toys ascending?** To buy the maximum number within the budget.
+5. **Why sort Greedy Florist descending?** To assign lower multipliers to more expensive flowers.
+
+## 7. Key Learning
+
+Greedy algorithms require a justified local choice. Reachability, running balances and sorting order make these solutions efficient.
+
+**Day 27 completed — 4/4 Accepted.**
