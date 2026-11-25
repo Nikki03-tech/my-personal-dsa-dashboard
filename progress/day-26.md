@@ -2,65 +2,58 @@
 
 **Date:** November 26, 2026  
 **Language:** Python  
-**Status:** PLANNED — update this after your attempt.
+**Status:** COMPLETED — all 4/4 online-judge submissions reported Accepted on November 25, 2026.
 
-
-## Updated dashboard assignments — four questions per day
-
-> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+## Confirmed dashboard assignments — 4/4 Accepted
 
 ### LeetCode
-- [ ] **Q1 — [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)**
-- [ ] **Q2 — [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)**
+- [x] **Q1 — [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)** — Accepted
+- [x] **Q2 — [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)** — Accepted
 
 ### HackerRank
-- [ ] **Q1 — [Contacts](https://www.hackerrank.com/challenges/contacts/problem)**
-- [ ] **Q2 — [No Prefix Set](https://www.hackerrank.com/challenges/three-month-preparation-kit-no-prefix-set/problem)**
+- [x] **Q1 — [Contacts](https://www.hackerrank.com/challenges/contacts/problem)** — Accepted
+- [x] **Q2 — [No Prefix Set](https://www.hackerrank.com/challenges/three-month-preparation-kit-no-prefix-set/problem)** — Accepted
 
-## Today's learning goals
-- [ ] Trie node and child map
-- [ ] End-of-word marker
-- [ ] insert(), search() and startsWith()
-- [ ] Prefix-based query use cases
+**Submission confirmation:** The user reported that all four questions for Day 26 were run, submitted, and all test cases passed on November 25, 2026. This day was completed ahead of its scheduled calendar date.
 
-## Core practice
-- **LeetCode:** [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) — Medium
-- **HackerRank / practice:** [Contacts](https://www.hackerrank.com/challenges/contacts/problem)
+**Digital study notes:** [Open Day 26 notes](../notes/day-26.md)
 
-## How to approach it
-Walk one character at a time, creating missing child nodes during insertion. Mark the final node as a complete word.
+## 1. Concepts Learned
 
-## Edge cases to test
-Test an empty prefix, a word that is a prefix of another, inserting the same word twice, and a missing prefix.
+- [x] Trie nodes and child maps
+- [x] End-of-word markers
+- [x] insert(), search() and startsWith()
+- [x] Prefix counts, wildcard DFS and prefix conflict detection
 
-## Optional stretch
-[Word Search II](https://leetcode.com/problems/word-search-ii/)
-Optional Hard: combine a trie with DFS on a character board.
+## 2. Important Logic
 
-## Complexity review
-- [ ] State the time complexity and explain which input size it depends on.
-- [ ] State auxiliary space separately from output space.
-- [ ] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
+Store words character by character in a Trie. Use terminal markers for complete words, per-prefix counts for Contacts, DFS for wildcard search, and terminal/child checks for No Prefix Set.
 
-## Daily checklist
-- [ ] Read the concept and trace a small example by hand.
-- [ ] Attempt the core LeetCode problem independently.
-- [ ] Attempt the HackerRank exercise or custom Python drill.
-- [ ] Test the edge cases above.
-- [ ] Explain the approach aloud without reading the solution.
-- [ ] Revisit this pattern after 2–3 days.
+## 3. Edge Cases Reviewed
 
-## My attempt notes
-**First approach:**  
+Test a word that is a prefix of another, duplicate words, missing prefixes, wildcard matches on multiple branches, and the first invalid word in No Prefix Set.
 
-**Where I got stuck:**  
+## 4. Coding Problems Completed
 
-**Hints used:**  
+- [x] LeetCode Q1 — Implement Trie (Prefix Tree)
+- [x] LeetCode Q2 — Design Add and Search Words Data Structure
+- [x] HackerRank Q1 — Contacts
+- [x] HackerRank Q2 — No Prefix Set
 
-**Key insight / final approach:**  
+## 5. Time and Space Complexity
 
-**Time complexity:**  
+Trie operations O(L) per word or prefix. Wildcard search can branch. Contacts and No Prefix Set take O(total characters) in the usual alphabet model.
 
-**Auxiliary space complexity:**  
+## 6. Mock Interview Questions and Answers
 
-**What I learned / what to revise:**  
+1. **What is a Trie?** A tree-like structure for storing and searching strings by prefix.
+2. **What is a terminal marker?** A marker identifying the end of a complete word.
+3. **How does wildcard search work?** DFS explores possible child branches.
+4. **How do Contacts queries work efficiently?** Each prefix node stores the count of words passing through it.
+5. **How can a Trie detect a prefix conflict?** Check for an earlier terminal node along the path or descendants below the new word's endpoint.
+
+## 7. Key Learning
+
+Tries support prefix operations, wildcard matching and prefix-conflict detection. The core concepts are child nodes, terminal markers, DFS branching and prefix counts.
+
+**Day 26 completed — 4/4 Accepted.**
