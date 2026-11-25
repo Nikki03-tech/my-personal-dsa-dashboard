@@ -2,66 +2,59 @@
 
 **Date:** November 30, 2026  
 **Language:** Python  
-**Status:** PLANNED — update this after your attempt.
+**Status:** COMPLETED — all 4/4 online-judge submissions reported Accepted on November 25, 2026.
 
-
-## Updated dashboard assignments — four questions per day
-
-> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+## Confirmed dashboard assignments — 4/4 Accepted
 
 ### LeetCode
-- [ ] **Q1 — [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)**
-- [ ] **Q2 — [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)**
+- [x] **Q1 — [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)** — Accepted
+- [x] **Q2 — [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)** — Accepted
 
 ### HackerRank
-- [ ] **Q1 — [New Year Chaos](https://www.hackerrank.com/challenges/new-year-chaos/problem)**
-- [ ] **Q2 — [Minimum Swaps 2](https://www.hackerrank.com/challenges/minimum-swaps-2/problem)**
+- [x] **Q1 — [New Year Chaos](https://www.hackerrank.com/challenges/new-year-chaos/problem)** — Accepted
+- [x] **Q2 — [Minimum Swaps 2](https://www.hackerrank.com/challenges/minimum-swaps-2/problem)** — Accepted
 
-## Today's learning goals
-- [ ] Choose a pattern from an unfamiliar statement
-- [ ] Clarify constraints and edge cases
-- [ ] Write readable Python and test it
-- [ ] State time and space complexity
-- [ ] Explain trade-offs aloud
+**Submission confirmation:** The user reported that all four questions for Day 30 were run, submitted, and all test cases passed on November 25, 2026. This day was completed ahead of its scheduled calendar date.
 
-## Core practice
-- **LeetCode:** [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) — Medium
-- **HackerRank / practice:** [New Year Chaos](https://www.hackerrank.com/challenges/new-year-chaos/problem)
+**Digital study notes:** [Open Day 30 notes](../notes/day-30.md)
 
-## How to approach it
-Set a timer, try the problem without hints, write a small example, explain your approach before coding, then review only after a genuine attempt.
+## 1. Concepts Learned
 
-## Edge cases to test
-Test minimal input, duplicates, negative values, sorted/reverse order, and maximum constraints where allowed.
+- [x] Choose a pattern from an unfamiliar statement
+- [x] Prefix and suffix products
+- [x] Two-pointer maximum boundaries
+- [x] Bribe and inversion counting
+- [x] Correct-position cyclic swapping
 
-## Optional stretch
-[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
-Optional Hard exposure: identify the two-pointer or prefix/suffix maximum pattern. It is fine to study the idea rather than solve it independently today.
+## 2. Important Logic
 
-## Complexity review
-- [ ] State the time complexity and explain which input size it depends on.
-- [ ] State auxiliary space separately from output space.
-- [ ] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
+Use two passes for prefix/suffix products. Use two pointers and left/right maxima for trapped water. Count overtaking people within the allowed two-bribe range for New Year Chaos. Place each permutation value at index value - 1 for Minimum Swaps 2.
 
-## Daily checklist
-- [ ] Read the concept and trace a small example by hand.
-- [ ] Attempt the core LeetCode problem independently.
-- [ ] Attempt the HackerRank exercise or custom Python drill.
-- [ ] Test the edge cases above.
-- [ ] Explain the approach aloud without reading the solution.
-- [ ] Revisit this pattern after 2–3 days.
+## 3. Edge Cases Reviewed
 
-## My attempt notes
-**First approach:**  
+Test zero values in product arrays, monotonic and flat height arrays, a one-person queue, a queue with a person bribing more than twice, and already sorted or reverse permutations.
 
-**Where I got stuck:**  
+## 4. Coding Problems Completed
 
-**Hints used:**  
+- [x] LeetCode Q1 — Product of Array Except Self
+- [x] LeetCode Q2 — Trapping Rain Water
+- [x] HackerRank Q1 — New Year Chaos
+- [x] HackerRank Q2 — Minimum Swaps 2
 
-**Key insight / final approach:**  
+## 5. Time and Space Complexity
 
-**Time complexity:**  
+All four solutions run in O(n) time and O(1) auxiliary space, excluding the Product of Array Except Self output.
 
-**Auxiliary space complexity:**  
+## 6. Mock Interview Questions and Answers
 
-**What I learned / what to revise:**  
+1. **What is a prefix product?** The product of elements before the current index.
+2. **What is a suffix product?** The product of elements after the current index.
+3. **How is trapped water determined?** By the smaller of left and right maximum boundaries.
+4. **What makes a queue Too chaotic?** A person moved forward by more than two positions.
+5. **How does Minimum Swaps 2 find a target index?** Value x belongs at index x - 1.
+
+## 7. Key Learning
+
+The final mixed set combines prefix/suffix products, two pointers, inversion counting and correct-position swapping. Pattern recognition and explaining invariants are essential interview skills.
+
+**Day 30 completed — 4/4 Accepted.**
