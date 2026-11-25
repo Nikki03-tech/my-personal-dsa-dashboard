@@ -2,66 +2,60 @@
 
 **Date:** November 29, 2026  
 **Language:** Python  
-**Status:** PLANNED — update this after your attempt.
+**Status:** COMPLETED — all 4/4 online-judge submissions reported Accepted on November 25, 2026.
 
-
-## Updated dashboard assignments — four questions per day
-
-> These are the four assigned problems shown on the current dashboard. All are pending until attempted and accepted; mark each checkbox only after completing that problem.
+## Confirmed dashboard assignments — 4/4 Accepted
 
 ### LeetCode
-- [ ] **Q1 — [Single Number](https://leetcode.com/problems/single-number/)**
-- [ ] **Q2 — [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)**
+- [x] **Q1 — [Single Number](https://leetcode.com/problems/single-number/)** — Accepted
+- [x] **Q2 — [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)** — Accepted
 
 ### HackerRank
-- [ ] **Q1 — [Flipping Bits](https://www.hackerrank.com/challenges/flipping-bits/problem)**
-- [ ] **Q2 — [Sum vs XOR](https://www.hackerrank.com/challenges/sum-vs-xor/problem)**
+- [x] **Q1 — [Flipping Bits](https://www.hackerrank.com/challenges/flipping-bits/problem)** — Accepted
+- [x] **Q2 — [Sum vs XOR](https://www.hackerrank.com/challenges/sum-vs-xor/problem)** — Accepted
 
-## Today's learning goals
-- [ ] Binary representation; AND, OR, XOR and shifts
-- [ ] XOR cancellation property
-- [ ] GCD using Euclid's algorithm; LCM
-- [ ] Prime checks and Sieve of Eratosthenes
-- [ ] Modulo arithmetic basics
+**Submission confirmation:** The user reported that all four questions for Day 29 were run, submitted, and all test cases passed on November 25, 2026. This day was completed ahead of its scheduled calendar date.
 
-## Core practice
-- **LeetCode:** [Single Number](https://leetcode.com/problems/single-number/) — Easy
-- **HackerRank / practice:** [Flipping Bits](https://www.hackerrank.com/challenges/flipping-bits/problem)
+**Digital study notes:** [Open Day 29 notes](../notes/day-29.md)
 
-## How to approach it
-For Single Number, XOR all values: equal pairs cancel and the unpaired value remains. For math drills, write small functions and test boundary values.
+## 1. Concepts Learned
 
-## Edge cases to test
-Test one element, repeated pairs, zero, negative values if permitted, GCD with zero, and prime values such as 2 and 1.
+- [x] Binary representation and AND/OR/XOR
+- [x] XOR cancellation
+- [x] n & (n - 1) set-bit removal
+- [x] 32-bit masks
+- [x] Significant zero bits and Sum vs XOR
 
-## Optional stretch
-[Count Primes](https://leetcode.com/problems/count-primes/)
-Optional Medium: implement the Sieve of Eratosthenes. Also code gcd(a, b) and lcm(a, b) as short Python drills.
+## 2. Important Logic
 
-## Complexity review
-- [ ] State the time complexity and explain which input size it depends on.
-- [ ] State auxiliary space separately from output space.
-- [ ] Explain whether sorting, hashing, or an extra data structure changes the trade-off.
+XOR all values to find the unpaired number. Repeatedly clear the rightmost set bit to count ones. Use a 32-bit all-ones mask to flip bits. Count significant zero bits to solve Sum vs XOR.
 
-## Daily checklist
-- [ ] Read the concept and trace a small example by hand.
-- [ ] Attempt the core LeetCode problem independently.
-- [ ] Attempt the HackerRank exercise or custom Python drill.
-- [ ] Test the edge cases above.
-- [ ] Explain the approach aloud without reading the solution.
-- [ ] Revisit this pattern after 2–3 days.
+## 3. Edge Cases Reviewed
 
-## My attempt notes
-**First approach:**  
+Test one number, duplicate pairs, zero, 32-bit boundary values, and numbers whose binary representations contain several zero bits.
 
-**Where I got stuck:**  
+## 4. Coding Problems Completed
 
-**Hints used:**  
+- [x] LeetCode Q1 — Single Number
+- [x] LeetCode Q2 — Number of 1 Bits
+- [x] HackerRank Q1 — Flipping Bits
+- [x] HackerRank Q2 — Sum vs XOR
 
-**Key insight / final approach:**  
+## 5. Time and Space Complexity
 
-**Time complexity:**  
+Single Number O(n)/O(1). Number of 1 Bits at most 32 iterations. Flipping Bits O(1). Sum vs XOR O(log n) time and O(1) space.
 
-**Auxiliary space complexity:**  
+## 6. Mock Interview Questions and Answers
 
-**What I learned / what to revise:**  
+1. **What is XOR?** It returns 1 when two bits differ and 0 when they are equal.
+2. **Why does XOR solve Single Number?** Duplicate pairs cancel.
+3. **What does n & (n - 1) do?** Removes the rightmost set bit.
+4. **What is Hamming Weight?** The number of one bits.
+5. **Why use a 32-bit mask?** To keep Flipping Bits within exactly 32 bits.
+6. **Why count zero bits in Sum vs XOR?** Those positions allow choices without causing a carry.
+
+## 7. Key Learning
+
+Bit manipulation works directly with binary values. XOR cancels duplicates, n & (n - 1) clears a set bit, masks control bit width, and zero-bit counting solves Sum vs XOR.
+
+**Day 29 completed — 4/4 Accepted.**
